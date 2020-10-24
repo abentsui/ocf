@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<pattern xmlns="http://www.multiable.com/pattern">
+	<record code="ocfCardSize" type="options">
+		<options valueClass="String">
+			<option value="" label="--" />
+			<option value="small" label="Small" />
+			<option value="large" label="Large" />
+		</options>
+	</record>
+	
+	<record code="ocfRem" type="lookup">
+		<lookup searchType="ocfRem" />
+	</record>
+</pattern>

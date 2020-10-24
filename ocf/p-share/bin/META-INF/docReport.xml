@@ -1,0 +1,23 @@
+<docReport>
+
+	<report module="dn" code="@ocf_dn_sql"  reportDto="com.multiable.erp.trdg.share.data.ireport.dn.DnJrDto" 
+	        providerCode="com.multiable.erp.ocf.ireport.provider.dn.OcfDeliveryNoteProvider" providerOrder="1" providerMess="OCF Delivery Note" 
+	        desc="OcfDeliveryNoteProvider" reportDtoSettingSrc="/view/erp/trdg/dialog/dnPrintSetting.xhtml">
+	     <format code="@ocf_dn_sql" remark="Delivery Note(sqltable)" description="OCF Delivery Note" 
+		         packageName="com.multiable.erp.ocf.share.data.ireport.resource.report.dn" expired="false">
+	        <jrxml name="prtDn.jrxml" main="true"></jrxml>
+	        <jrxml name="prtDnt.jrxml"></jrxml>
+			<jrxml name="PrtDnbomt.jrxml"></jrxml>
+	     </format>
+	</report>
+	
+	<report module="dn" code="@ocf_dnsmallcard_sql" reportDto="com.multiable.erp.ocf.share.data.ireport.dn.OcfDnCardJrDto" 
+	        providerCode="com.multiable.erp.ocf.ireport.provider.dn.OcfDnSmallCardProvider" providerOrder="1" providerMess="OCF Small Message Card" 
+	        desc="Ocf Small Card Provider">
+	     <format code="@ocf_dnsmallcard_sql" remark="OCF Small Card" description="OCF Small Card" 
+		         packageName="com.multiable.erp.ocf.share.data.ireport.resource.report.dn" expired="false">
+	        <jrxml name="prtDnSmallCard.jrxml" main="true"></jrxml>
+	     </format>
+	</report>		
+	
+</docReport>

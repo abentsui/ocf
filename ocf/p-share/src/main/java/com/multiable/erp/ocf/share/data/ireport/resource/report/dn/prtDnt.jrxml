@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2020-07-09T18:24:16 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="prtDnt" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="e988718d-2c1e-4b56-94d4-691bc2105a37">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<parameter name="macvar" class="com.multiable.erp.trdg.share.util.TradeJrVar" isForPrompting="false"/>
+	<parameter name="macparam" class="com.multiable.erp.trdg.share.data.ireport.dn.DnJrDto" isForPrompting="false"/>
+	<parameter name="m.weightUnit" class="java.lang.String" isForPrompting="false"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="lotcost.dateAttr9" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr9]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr7" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr7]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr8" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr8]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr5" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr5]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr6" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr6]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr3" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr3]]></fieldDescription>
+	</field>
+	<field name="pro.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.expiredUid]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr4" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr4]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr1" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr1]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr2" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr2]]></fieldDescription>
+	</field>
+	<field name="proco.expDayUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[proco.expDayUnit]]></fieldDescription>
+	</field>
+	<field name="maindn.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="dnt.domAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.domAmt]]></fieldDescription>
+	</field>
+	<field name="pro.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.desc]]></fieldDescription>
+	</field>
+	<field name="loc.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[loc.id]]></fieldDescription>
+	</field>
+	<field name="pro.seedtime" class="java.lang.Integer">
+		<fieldDescription><![CDATA[pro.seedtime]]></fieldDescription>
+	</field>
+	<field name="pro.poscoreRetailType" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.poscoreRetailType]]></fieldDescription>
+	</field>
+	<field name="dnt.asbLotno" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.asbLotno]]></fieldDescription>
+	</field>
+	<field name="maindn.tDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.tDate]]></fieldDescription>
+	</field>
+	<field name="proco.minUpCurId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.minUpCurId]]></fieldDescription>
+	</field>
+	<field name="dnt.completed" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dnt.completed]]></fieldDescription>
+	</field>
+	<field name="loc.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[loc.printCount]]></fieldDescription>
+	</field>
+	<field name="dnt.innerQty" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.innerQty]]></fieldDescription>
+	</field>
+	<field name="dnt.asbId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.asbId]]></fieldDescription>
+	</field>
+	<field name="maindn.descOrigin" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.descOrigin]]></fieldDescription>
+	</field>
+	<field name="lotcost.up" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.up]]></fieldDescription>
+	</field>
+	<field name="dnt.innerUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.innerUnitId]]></fieldDescription>
+	</field>
+	<field name="maindn.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.sysJson]]></fieldDescription>
+	</field>
+	<field name="lotcost.expDate" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.expDate]]></fieldDescription>
+	</field>
+	<field name="dnt.proId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.proId]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="pro.saleUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.saleUnitId]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.ttlAmt]]></fieldDescription>
+	</field>
+	<field name="pro.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.useAccess]]></fieldDescription>
+	</field>
+	<field name="proco.autoAssign" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[proco.autoAssign]]></fieldDescription>
+	</field>
+	<field name="dnt.disc" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.disc]]></fieldDescription>
+	</field>
+	<field name="loc.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[loc.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="pro.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.locked]]></fieldDescription>
+	</field>
+	<field name="lotcost.lotnoLot" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.lotnoLot]]></fieldDescription>
+	</field>
+	<field name="dnt.sourceCliDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.sourceCliDesc]]></fieldDescription>
+	</field>
+	<field name="pro.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="maindn.freeQtyPer" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.freeQtyPer]]></fieldDescription>
+	</field>
+	<field name="dnt.unitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.unitId]]></fieldDescription>
+	</field>
+	<field name="dnt.sourceLot" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.sourceLot]]></fieldDescription>
+	</field>
+	<field name="pro.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.i18nField]]></fieldDescription>
+	</field>
+	<field name="dnt.preTaxUp" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.preTaxUp]]></fieldDescription>
+	</field>
+	<field name="lotcost.jobId" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.jobId]]></fieldDescription>
+	</field>
+	<field name="dnt.scrapQty1" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.scrapQty1]]></fieldDescription>
+	</field>
+	<field name="dnt.scrapQty2" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.scrapQty2]]></fieldDescription>
+	</field>
+	<field name="maindn.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.expiredUid]]></fieldDescription>
+	</field>
+	<field name="proco.maxAvailDef" class="java.lang.String">
+		<fieldDescription><![CDATA[proco.maxAvailDef]]></fieldDescription>
+	</field>
+	<field name="loc.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.tel]]></fieldDescription>
+	</field>
+	<field name="proco.stkMth" class="java.lang.String">
+		<fieldDescription><![CDATA[proco.stkMth]]></fieldDescription>
+	</field>
+	<field name="maindn.rev" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.rev]]></fieldDescription>
+	</field>
+	<field name="pro.qcRequired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.qcRequired]]></fieldDescription>
+	</field>
+	<field name="dnt.useLotno" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dnt.useLotno]]></fieldDescription>
+	</field>
+	<field name="maindn.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.createDate]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc9" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc9]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc8" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc8]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc7" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc7]]></fieldDescription>
+	</field>
+	<field name="dnt.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.beId]]></fieldDescription>
+	</field>
+	<field name="proco.mpqUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.mpqUnitId]]></fieldDescription>
+	</field>
+	<field name="maindn.virDeptId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.virDeptId]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccess]]></fieldDescription>
+	</field>
+	<field name="lotcost.tDate" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.tDate]]></fieldDescription>
+	</field>
+	<field name="dnt.lot" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.lot]]></fieldDescription>
+	</field>
+	<field name="proco.unitSalaryCurId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.unitSalaryCurId]]></fieldDescription>
+	</field>
+	<field name="dnt.preTaxAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.preTaxAmt]]></fieldDescription>
+	</field>
+	<field name="dnt.freeQtyPer" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.freeQtyPer]]></fieldDescription>
+	</field>
+	<field name="dnt.deliveryRequire" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dnt.deliveryRequire]]></fieldDescription>
+	</field>
+	<field name="proco.maxUcUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.maxUcUnitId]]></fieldDescription>
+	</field>
+	<field name="maindn.code" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.code]]></fieldDescription>
+	</field>
+	<field name="pro.udfATLENGTH" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATLENGTH]]></fieldDescription>
+	</field>
+	<field name="pro.unitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.unitId]]></fieldDescription>
+	</field>
+	<field name="proco.inventoryItem" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[proco.inventoryItem]]></fieldDescription>
+	</field>
+	<field name="loc.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.telCountry]]></fieldDescription>
+	</field>
+	<field name="maindn.man" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.man]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlTranQty" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ttlTranQty]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlDisc" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.ttlDisc]]></fieldDescription>
+	</field>
+	<field name="dnt.dimension" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.dimension]]></fieldDescription>
+	</field>
+	<field name="maindn.loadGpCoData" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.loadGpCoData]]></fieldDescription>
+	</field>
+	<field name="proco.mpq" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.mpq]]></fieldDescription>
+	</field>
+	<field name="dnt.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.id]]></fieldDescription>
+	</field>
+	<field name="pro.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr11" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr11]]></fieldDescription>
+	</field>
+	<field name="proco.hourSalaryCurId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.hourSalaryCurId]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr10" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr10]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr13" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr13]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr12" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr12]]></fieldDescription>
+	</field>
+	<field name="pro.udfATSAFETY" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATSAFETY]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr15" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr15]]></fieldDescription>
+	</field>
+	<field name="pro.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[pro.createDate]]></fieldDescription>
+	</field>
+	<field name="loc.country" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.country]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr14" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr14]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr17" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr17]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr16" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr16]]></fieldDescription>
+	</field>
+	<field name="dnt.hId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.hId]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr19" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr19]]></fieldDescription>
+	</field>
+	<field name="dnt.locId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.locId]]></fieldDescription>
+	</field>
+	<field name="dnt.lotUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.lotUnit]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr18" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr18]]></fieldDescription>
+	</field>
+	<field name="dnt.footerKey" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.footerKey]]></fieldDescription>
+	</field>
+	<field name="pro.crossSellList" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.crossSellList]]></fieldDescription>
+	</field>
+	<field name="proco.maxAvail" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.maxAvail]]></fieldDescription>
+	</field>
+	<field name="loc.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[loc.beId]]></fieldDescription>
+	</field>
+	<field name="loc.ad1" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.ad1]]></fieldDescription>
+	</field>
+	<field name="loc.ad2" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.ad2]]></fieldDescription>
+	</field>
+	<field name="loc.ad3" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.ad3]]></fieldDescription>
+	</field>
+	<field name="loc.ad4" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.ad4]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr20" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr20]]></fieldDescription>
+	</field>
+	<field name="dnt.gw" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.gw]]></fieldDescription>
+	</field>
+	<field name="maindn.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.telArea]]></fieldDescription>
+	</field>
+	<field name="proco.locId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.locId]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr9" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr9]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr8" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr8]]></fieldDescription>
+	</field>
+	<field name="dnt.asbCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.asbCode]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr7" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr7]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr6" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr6]]></fieldDescription>
+	</field>
+	<field name="loc.udfATupdateAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.udfATupdateAccess]]></fieldDescription>
+	</field>
+	<field name="maindn.apiform" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.apiform]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr1" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr1]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopShipmentNo" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.eshopShipmentNo]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr5" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr5]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr4" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr4]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr3" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr3]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr2" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr2]]></fieldDescription>
+	</field>
+	<field name="maindn.virDeptDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.virDeptDesc]]></fieldDescription>
+	</field>
+	<field name="pro.udfATQUALITY" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATQUALITY]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc6" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc6]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc5" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc5]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc4" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc4]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc3" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc3]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc2" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc2]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc1" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc1]]></fieldDescription>
+	</field>
+	<field name="pro.udfATupdateAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.udfATupdateAccess]]></fieldDescription>
+	</field>
+	<field name="proco.unitSalaryUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.unitSalaryUnitId]]></fieldDescription>
+	</field>
+	<field name="dnt.shipMark" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.shipMark]]></fieldDescription>
+	</field>
+	<field name="dnt.newLotno" class="java.lang.Integer">
+		<fieldDescription><![CDATA[dnt.newLotno]]></fieldDescription>
+	</field>
+	<field name="dnt.qty2" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.qty2]]></fieldDescription>
+	</field>
+	<field name="proco.rol" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.rol]]></fieldDescription>
+	</field>
+	<field name="maindn.amt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.amt]]></fieldDescription>
+	</field>
+	<field name="pro.udfATCOLOR" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATCOLOR]]></fieldDescription>
+	</field>
+	<field name="loc.city" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.city]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr9" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr9]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr7" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr7]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr8" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr8]]></fieldDescription>
+	</field>
+	<field name="pro.seriesId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.seriesId]]></fieldDescription>
+	</field>
+	<field name="dnt.unit1Id" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.unit1Id]]></fieldDescription>
+	</field>
+	<field name="lotcost.tranType" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.tranType]]></fieldDescription>
+	</field>
+	<field name="lotcost.isNew" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[lotcost.isNew]]></fieldDescription>
+	</field>
+	<field name="pro.matcatId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.matcatId]]></fieldDescription>
+	</field>
+	<field name="dnt.up" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.up]]></fieldDescription>
+	</field>
+	<field name="proco.subUpUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.subUpUnitId]]></fieldDescription>
+	</field>
+	<field name="loc.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.sysJson]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr1" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr1]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr2" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr2]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr5" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr5]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr6" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr6]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr3" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr3]]></fieldDescription>
+	</field>
+	<field name="maindn.deliveryRequire" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.deliveryRequire]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr4" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr4]]></fieldDescription>
+	</field>
+	<field name="proco.minUp" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.minUp]]></fieldDescription>
+	</field>
+	<field name="loc.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.expired]]></fieldDescription>
+	</field>
+	<field name="pro.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[pro.expiredDate]]></fieldDescription>
+	</field>
+	<field name="proco.venId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.venId]]></fieldDescription>
+	</field>
+	<field name="lotcost.tranId" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.tranId]]></fieldDescription>
+	</field>
+	<field name="maindn.lspId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.lspId]]></fieldDescription>
+	</field>
+	<field name="dnt.soId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.soId]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr20" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr20]]></fieldDescription>
+	</field>
+	<field name="dnt.packingUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.packingUnitId]]></fieldDescription>
+	</field>
+	<field name="loc.sHumid" class="java.lang.Double">
+		<fieldDescription><![CDATA[loc.sHumid]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlCharge" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.ttlCharge]]></fieldDescription>
+	</field>
+	<field name="pro.purUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.purUnitId]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr1" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr1]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr2" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr2]]></fieldDescription>
+	</field>
+	<field name="loc.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.telArea]]></fieldDescription>
+	</field>
+	<field name="dnt.cuspono" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.cuspono]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr5" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr5]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr6" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr6]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr3" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr3]]></fieldDescription>
+	</field>
+	<field name="loc.eTemp" class="java.lang.Double">
+		<fieldDescription><![CDATA[loc.eTemp]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr4" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr4]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr9" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr9]]></fieldDescription>
+	</field>
+	<field name="pro.pickUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.pickUnitId]]></fieldDescription>
+	</field>
+	<field name="dnt.unit2Id" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.unit2Id]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr7" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr7]]></fieldDescription>
+	</field>
+	<field name="proco.stkMth2" class="java.lang.String">
+		<fieldDescription><![CDATA[proco.stkMth2]]></fieldDescription>
+	</field>
+	<field name="lotcost.lookupAttr8" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.lookupAttr8]]></fieldDescription>
+	</field>
+	<field name="pro.udfATWEIGHT" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATWEIGHT]]></fieldDescription>
+	</field>
+	<field name="dnt.volume" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.volume]]></fieldDescription>
+	</field>
+	<field name="dnt.displayCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.displayCode]]></fieldDescription>
+	</field>
+	<field name="pro.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[pro.printCount]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc27" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc27]]></fieldDescription>
+	</field>
+	<field name="maindn.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.createUid]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc26" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc26]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc25" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc25]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc24" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc24]]></fieldDescription>
+	</field>
+	<field name="dnt.passQty2" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.passQty2]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc23" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc23]]></fieldDescription>
+	</field>
+	<field name="dnt.passQty1" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.passQty1]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc22" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc22]]></fieldDescription>
+	</field>
+	<field name="loc.eHumid" class="java.lang.Double">
+		<fieldDescription><![CDATA[loc.eHumid]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc21" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc21]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc20" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc20]]></fieldDescription>
+	</field>
+	<field name="loc.locTypeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[loc.locTypeId]]></fieldDescription>
+	</field>
+	<field name="maindn.measUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.measUnit]]></fieldDescription>
+	</field>
+	<field name="proco.minUpUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.minUpUnitId]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc29" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc29]]></fieldDescription>
+	</field>
+	<field name="maindn.upOrigin" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.upOrigin]]></fieldDescription>
+	</field>
+	<field name="dnt.sourceCliId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.sourceCliId]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc28" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc28]]></fieldDescription>
+	</field>
+	<field name="lotcost.curId" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.curId]]></fieldDescription>
+	</field>
+	<field name="proco.poq" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.poq]]></fieldDescription>
+	</field>
+	<field name="pro.upSellList" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.upSellList]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc30" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc30]]></fieldDescription>
+	</field>
+	<field name="maindn.staffId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.staffId]]></fieldDescription>
+	</field>
+	<field name="pro.qcRequiredSubc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.qcRequiredSubc]]></fieldDescription>
+	</field>
+	<field name="dnt.bDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.bDesc]]></fieldDescription>
+	</field>
+	<field name="pro.stkUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.stkUnitId]]></fieldDescription>
+	</field>
+	<field name="loc.code" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.code]]></fieldDescription>
+	</field>
+	<field name="pro.code" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.code]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr10" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr10]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr11" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr11]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlTranUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ttlTranUnit]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr14" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr14]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr15" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr15]]></fieldDescription>
+	</field>
+	<field name="dnt.packingUnitCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.packingUnitCode]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr12" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr12]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr13" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr13]]></fieldDescription>
+	</field>
+	<field name="maindn.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.locked]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr18" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr18]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr19" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr19]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr16" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr16]]></fieldDescription>
+	</field>
+	<field name="lotcost.dateAttr17" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.dateAttr17]]></fieldDescription>
+	</field>
+	<field name="lotcost.tranDate" class="java.util.Date">
+		<fieldDescription><![CDATA[lotcost.tranDate]]></fieldDescription>
+	</field>
+	<field name="maindn.taxAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.taxAmt]]></fieldDescription>
+	</field>
+	<field name="proco.leadTime" class="java.lang.Integer">
+		<fieldDescription><![CDATA[proco.leadTime]]></fieldDescription>
+	</field>
+	<field name="pro.udfATattSetId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATattSetId]]></fieldDescription>
+	</field>
+	<field name="maindn.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="pro.udfATAGE" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATAGE]]></fieldDescription>
+	</field>
+	<field name="proco.poqUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.poqUnitId]]></fieldDescription>
+	</field>
+	<field name="lotcost.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.id]]></fieldDescription>
+	</field>
+	<field name="proco.subUp" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.subUp]]></fieldDescription>
+	</field>
+	<field name="pro.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.createUid]]></fieldDescription>
+	</field>
+	<field name="loc.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.locked]]></fieldDescription>
+	</field>
+	<field name="dnt.asbRate" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.asbRate]]></fieldDescription>
+	</field>
+	<field name="pro.syncEnabled" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.syncEnabled]]></fieldDescription>
+	</field>
+	<field name="pro.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="dnt.asbNewLotno" class="java.lang.Integer">
+		<fieldDescription><![CDATA[dnt.asbNewLotno]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowFlowId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.multiFlowFlowId]]></fieldDescription>
+	</field>
+	<field name="lotcost.jobLot" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.jobLot]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc16" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc16]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc15" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc15]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc14" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc14]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc13" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc13]]></fieldDescription>
+	</field>
+	<field name="dnt.sourceCliCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.sourceCliCode]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc12" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc12]]></fieldDescription>
+	</field>
+	<field name="dnt.nw" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.nw]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc11" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc11]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc10" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc10]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowSrcBeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.multiFlowSrcBeId]]></fieldDescription>
+	</field>
+	<field name="dnt.scrapQty" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.scrapQty]]></fieldDescription>
+	</field>
+	<field name="loc.province" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.province]]></fieldDescription>
+	</field>
+	<field name="dnt.qty1" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.qty1]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc19" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc19]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc18" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc18]]></fieldDescription>
+	</field>
+	<field name="proco.unitSalary" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.unitSalary]]></fieldDescription>
+	</field>
+	<field name="maindn.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.expiredDate]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc17" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc17]]></fieldDescription>
+	</field>
+	<field name="dnt.asnLot" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.asnLot]]></fieldDescription>
+	</field>
+	<field name="maindn.preTaxTtlCharge" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.preTaxTtlCharge]]></fieldDescription>
+	</field>
+	<field name="dnt.cuspono@Duplicate_No@-1" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.cuspono@Duplicate_No@-1]]></fieldDescription>
+	</field>
+	<field name="proco.soleLotno" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[proco.soleLotno]]></fieldDescription>
+	</field>
+	<field name="maindn.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.i18nField]]></fieldDescription>
+	</field>
+	<field name="pro.udfPJPstring1" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.udfPJPstring1]]></fieldDescription>
+	</field>
+	<field name="maindn.position" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.position]]></fieldDescription>
+	</field>
+	<field name="loc.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[loc.expiredDate]]></fieldDescription>
+	</field>
+	<field name="dnt.dnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.dnId]]></fieldDescription>
+	</field>
+	<field name="loc.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.desc]]></fieldDescription>
+	</field>
+	<field name="proco.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[proco.iRev]]></fieldDescription>
+	</field>
+	<field name="loc.remarks" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.remarks]]></fieldDescription>
+	</field>
+	<field name="maindn.manId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.manId]]></fieldDescription>
+	</field>
+	<field name="maindn.curId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.curId]]></fieldDescription>
+	</field>
+	<field name="proco.useLotno" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[proco.useLotno]]></fieldDescription>
+	</field>
+	<field name="proco.jobLeadTime" class="java.lang.Integer">
+		<fieldDescription><![CDATA[proco.jobLeadTime]]></fieldDescription>
+	</field>
+	<field name="dnt.unitCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.unitCode]]></fieldDescription>
+	</field>
+	<field name="dnt.mldcDisc10" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.mldcDisc10]]></fieldDescription>
+	</field>
+	<field name="maindn.ce01Module" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ce01Module]]></fieldDescription>
+	</field>
+	<field name="loc.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[loc.createUid]]></fieldDescription>
+	</field>
+	<field name="dnt.vatPer" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.vatPer]]></fieldDescription>
+	</field>
+	<field name="proco.subUpCurId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.subUpCurId]]></fieldDescription>
+	</field>
+	<field name="dnt.asbSourceType" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.asbSourceType]]></fieldDescription>
+	</field>
+	<field name="dnt.lotLotno" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.lotLotno]]></fieldDescription>
+	</field>
+	<field name="loc.isGits" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.isGits]]></fieldDescription>
+	</field>
+	<field name="lotcost.jobProId" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.jobProId]]></fieldDescription>
+	</field>
+	<field name="dnt.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[dnt.iRev]]></fieldDescription>
+	</field>
+	<field name="maindn.dnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.dnId]]></fieldDescription>
+	</field>
+	<field name="pro.udfATCOLOUR" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATCOLOUR]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowSrcModule" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.multiFlowSrcModule]]></fieldDescription>
+	</field>
+	<field name="dnt.innerUnitCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.innerUnitCode]]></fieldDescription>
+	</field>
+	<field name="lotcost.unitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.unitId]]></fieldDescription>
+	</field>
+	<field name="proco.maxUcCurId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.maxUcCurId]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopwebId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.eshopwebId]]></fieldDescription>
+	</field>
+	<field name="pro.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.expired]]></fieldDescription>
+	</field>
+	<field name="maindn.weightUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.weightUnit]]></fieldDescription>
+	</field>
+	<field name="dnt.itemNo" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.itemNo]]></fieldDescription>
+	</field>
+	<field name="maindn.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.viewCode]]></fieldDescription>
+	</field>
+	<field name="dnt.sorCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.sorCode]]></fieldDescription>
+	</field>
+	<field name="proco.suMcHour" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.suMcHour]]></fieldDescription>
+	</field>
+	<field name="maindn.vatPer" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.vatPer]]></fieldDescription>
+	</field>
+	<field name="maindn.cusId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.cusId]]></fieldDescription>
+	</field>
+	<field name="dnt.sourceCliId@Duplicate_No@-2" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.sourceCliId@Duplicate_No@-2]]></fieldDescription>
+	</field>
+	<field name="pro.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.sysJson]]></fieldDescription>
+	</field>
+	<field name="pro.udfATSIZE" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATSIZE]]></fieldDescription>
+	</field>
+	<field name="pro.udfATNATURAL" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATNATURAL]]></fieldDescription>
+	</field>
+	<field name="pro.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.id]]></fieldDescription>
+	</field>
+	<field name="pro.udfATMTA" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATMTA]]></fieldDescription>
+	</field>
+	<field name="lotcost.domBasicUc" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.domBasicUc]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc1" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc1]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc4" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc4]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc5" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc5]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc2" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc2]]></fieldDescription>
+	</field>
+	<field name="loc.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[loc.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc3" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc3]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc8" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc8]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc9" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc9]]></fieldDescription>
+	</field>
+	<field name="pro.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.beId]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc6" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc6]]></fieldDescription>
+	</field>
+	<field name="dnt.ctiUc7" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.ctiUc7]]></fieldDescription>
+	</field>
+	<field name="lotcost.tranCode" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.tranCode]]></fieldDescription>
+	</field>
+	<field name="pro.ecategoryList" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.ecategoryList]]></fieldDescription>
+	</field>
+	<field name="pro.relatedList" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.relatedList]]></fieldDescription>
+	</field>
+	<field name="pro.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[pro.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="loc.status" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.status]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopOrderNo" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.eshopOrderNo]]></fieldDescription>
+	</field>
+	<field name="maindn.locId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.locId]]></fieldDescription>
+	</field>
+	<field name="pro.proShortDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.proShortDesc]]></fieldDescription>
+	</field>
+	<field name="loc.udfATattSetId" class="java.lang.Long">
+		<fieldDescription><![CDATA[loc.udfATattSetId]]></fieldDescription>
+	</field>
+	<field name="maindn.preTaxTtlAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.preTaxTtlAmt]]></fieldDescription>
+	</field>
+	<field name="loc.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="proco.batchQty" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.batchQty]]></fieldDescription>
+	</field>
+	<field name="dnt.ce01Module" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.ce01Module]]></fieldDescription>
+	</field>
+	<field name="maindn.doctypeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.doctypeId]]></fieldDescription>
+	</field>
+	<field name="lotcost.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.beId]]></fieldDescription>
+	</field>
+	<field name="maindn.printFileId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.printFileId]]></fieldDescription>
+	</field>
+	<field name="maindn.completed" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.completed]]></fieldDescription>
+	</field>
+	<field name="pro.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.viewCode]]></fieldDescription>
+	</field>
+	<field name="dnt.dDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.dDesc]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr20" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr20]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr20" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr20]]></fieldDescription>
+	</field>
+	<field name="dnt.refCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.refCode]]></fieldDescription>
+	</field>
+	<field name="lotcost.rate" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.rate]]></fieldDescription>
+	</field>
+	<field name="maindn.mldcCalcType" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.mldcCalcType]]></fieldDescription>
+	</field>
+	<field name="pro.magentoSku" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.magentoSku]]></fieldDescription>
+	</field>
+	<field name="pro.barCode" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.barCode]]></fieldDescription>
+	</field>
+	<field name="dnt.proCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.proCode]]></fieldDescription>
+	</field>
+	<field name="dnt.costAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.costAmt]]></fieldDescription>
+	</field>
+	<field name="dnt.ctnLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.ctnLabel]]></fieldDescription>
+	</field>
+	<field name="pro.dDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.dDesc]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr10" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr10]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr10" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr10]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr11" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr11]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr12" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr12]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr11" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr11]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr18" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr18]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr19" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr19]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr16" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr16]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr17" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr17]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr14" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr14]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr15" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr15]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr12" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr12]]></fieldDescription>
+	</field>
+	<field name="lotcost.numAttr13" class="java.lang.Double">
+		<fieldDescription><![CDATA[lotcost.numAttr13]]></fieldDescription>
+	</field>
+	<field name="proco.minBQty" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.minBQty]]></fieldDescription>
+	</field>
+	<field name="maindn.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.telCountry]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr18" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr18]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr17" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr17]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr19" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr19]]></fieldDescription>
+	</field>
+	<field name="proco.batchQtyUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.batchQtyUnitId]]></fieldDescription>
+	</field>
+	<field name="dnt.height" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.height]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr14" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr14]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr13" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr13]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr16" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr16]]></fieldDescription>
+	</field>
+	<field name="maindn.lspTrackingNo" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.lspTrackingNo]]></fieldDescription>
+	</field>
+	<field name="lotcost.textAttr15" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.textAttr15]]></fieldDescription>
+	</field>
+	<field name="loc.gpsLong" class="java.lang.Double">
+		<fieldDescription><![CDATA[loc.gpsLong]]></fieldDescription>
+	</field>
+	<field name="maindn.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[maindn.iRev]]></fieldDescription>
+	</field>
+	<field name="maindn.locDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.locDesc]]></fieldDescription>
+	</field>
+	<field name="dnt.asbQty" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.asbQty]]></fieldDescription>
+	</field>
+	<field name="lotcost.lock" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[lotcost.lock]]></fieldDescription>
+	</field>
+	<field name="maindn.flowTypeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.flowTypeId]]></fieldDescription>
+	</field>
+	<field name="dnt.locCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.locCode]]></fieldDescription>
+	</field>
+	<field name="dnt.lotQty" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.lotQty]]></fieldDescription>
+	</field>
+	<field name="maindn.fax" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.fax]]></fieldDescription>
+	</field>
+	<field name="loc.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[loc.createDate]]></fieldDescription>
+	</field>
+	<field name="proco.suManHour" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.suManHour]]></fieldDescription>
+	</field>
+	<field name="maindn.preTaxTtlDisc" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.preTaxTtlDisc]]></fieldDescription>
+	</field>
+	<field name="proco.expDay" class="java.lang.Integer">
+		<fieldDescription><![CDATA[proco.expDay]]></fieldDescription>
+	</field>
+	<field name="pro.magentoProId" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.magentoProId]]></fieldDescription>
+	</field>
+	<field name="pro.proDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.proDesc]]></fieldDescription>
+	</field>
+	<field name="pro.proName" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.proName]]></fieldDescription>
+	</field>
+	<field name="lotcost.proId" class="java.lang.Long">
+		<fieldDescription><![CDATA[lotcost.proId]]></fieldDescription>
+	</field>
+	<field name="maindn.doctypeDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.doctypeDesc]]></fieldDescription>
+	</field>
+	<field name="dnt.passQty" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.passQty]]></fieldDescription>
+	</field>
+	<field name="loc.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="dnt.width" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.width]]></fieldDescription>
+	</field>
+	<field name="loc.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[loc.iRev]]></fieldDescription>
+	</field>
+	<field name="maindn.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[maindn.printCount]]></fieldDescription>
+	</field>
+	<field name="dnt.amt" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.amt]]></fieldDescription>
+	</field>
+	<field name="maindn.virDeptCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.virDeptCode]]></fieldDescription>
+	</field>
+	<field name="pro.eshopProType" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.eshopProType]]></fieldDescription>
+	</field>
+	<field name="pro.poscoreDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.poscoreDesc]]></fieldDescription>
+	</field>
+	<field name="proco.hId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.hId]]></fieldDescription>
+	</field>
+	<field name="maindn.status" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.status]]></fieldDescription>
+	</field>
+	<field name="dnt.packingDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.packingDesc]]></fieldDescription>
+	</field>
+	<field name="dnt.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.i18nField]]></fieldDescription>
+	</field>
+	<field name="dnt.asnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.asnId]]></fieldDescription>
+	</field>
+	<field name="maindn.lspOrderResponse" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.lspOrderResponse]]></fieldDescription>
+	</field>
+	<field name="loc.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[loc.expiredUid]]></fieldDescription>
+	</field>
+	<field name="loc.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.viewCode]]></fieldDescription>
+	</field>
+	<field name="dnt.asbCurId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.asbCurId]]></fieldDescription>
+	</field>
+	<field name="pro.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[pro.iRev]]></fieldDescription>
+	</field>
+	<field name="loc.recipient" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.recipient]]></fieldDescription>
+	</field>
+	<field name="pro.status" class="java.lang.String">
+		<fieldDescription><![CDATA[pro.status]]></fieldDescription>
+	</field>
+	<field name="loc.sTemp" class="java.lang.Double">
+		<fieldDescription><![CDATA[loc.sTemp]]></fieldDescription>
+	</field>
+	<field name="loc.gpsLat" class="java.lang.Double">
+		<fieldDescription><![CDATA[loc.gpsLat]]></fieldDescription>
+	</field>
+	<field name="dnt.ctn" class="java.lang.Integer">
+		<fieldDescription><![CDATA[dnt.ctn]]></fieldDescription>
+	</field>
+	<field name="proco.minBQtyUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.minBQtyUnitId]]></fieldDescription>
+	</field>
+	<field name="dnt.soLot" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.soLot]]></fieldDescription>
+	</field>
+	<field name="proco.roundType" class="java.lang.String">
+		<fieldDescription><![CDATA[proco.roundType]]></fieldDescription>
+	</field>
+	<field name="proco.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.id]]></fieldDescription>
+	</field>
+	<field name="dnt.locDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.locDesc]]></fieldDescription>
+	</field>
+	<field name="loc.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.useAccess]]></fieldDescription>
+	</field>
+	<field name="dnt.perCtn" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.perCtn]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopUpdatedAt" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.eshopUpdatedAt]]></fieldDescription>
+	</field>
+	<field name="loc.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.i18nField]]></fieldDescription>
+	</field>
+	<field name="proco.maxAvailUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.maxAvailUnitId]]></fieldDescription>
+	</field>
+	<field name="dnt.sourceType" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.sourceType]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowSrcId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.multiFlowSrcId]]></fieldDescription>
+	</field>
+	<field name="loc.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[loc.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="proco.attrib" class="java.lang.String">
+		<fieldDescription><![CDATA[proco.attrib]]></fieldDescription>
+	</field>
+	<field name="maindn.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.expired]]></fieldDescription>
+	</field>
+	<field name="maindn.locCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.locCode]]></fieldDescription>
+	</field>
+	<field name="maindn.rate" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.rate]]></fieldDescription>
+	</field>
+	<field name="dnt.lotNoId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.lotNoId]]></fieldDescription>
+	</field>
+	<field name="pro.udfATCOUNTRY" class="java.lang.Long">
+		<fieldDescription><![CDATA[pro.udfATCOUNTRY]]></fieldDescription>
+	</field>
+	<field name="pro.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[pro.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="dnt.sourceId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.sourceId]]></fieldDescription>
+	</field>
+	<field name="lotcost.lotnoType" class="java.lang.Integer">
+		<fieldDescription><![CDATA[lotcost.lotnoType]]></fieldDescription>
+	</field>
+	<field name="proco.hourSalary" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.hourSalary]]></fieldDescription>
+	</field>
+	<field name="dnt.taxAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.taxAmt]]></fieldDescription>
+	</field>
+	<field name="loc.zipcode" class="java.lang.String">
+		<fieldDescription><![CDATA[loc.zipcode]]></fieldDescription>
+	</field>
+	<field name="maindn.cnDeptId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.cnDeptId]]></fieldDescription>
+	</field>
+	<field name="loc.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[loc.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="lotcost.lotno" class="java.lang.String">
+		<fieldDescription><![CDATA[lotcost.lotno]]></fieldDescription>
+	</field>
+	<field name="dnt.length" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.length]]></fieldDescription>
+	</field>
+	<field name="maindn.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.beId]]></fieldDescription>
+	</field>
+	<field name="maindn.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.id]]></fieldDescription>
+	</field>
+	<field name="maindn.doctypeCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.doctypeCode]]></fieldDescription>
+	</field>
+	<field name="proco.rolUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.rolUnitId]]></fieldDescription>
+	</field>
+	<field name="proco.maxUc" class="java.lang.Double">
+		<fieldDescription><![CDATA[proco.maxUc]]></fieldDescription>
+	</field>
+	<field name="maindn.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="proco.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[proco.beId]]></fieldDescription>
+	</field>
+	<field name="pro.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[pro.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="maindn.lspmainpickId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.lspmainpickId]]></fieldDescription>
+	</field>
+	<field name="maindn.@sub@dnt" class="java.lang.Object">
+		<fieldDescription><![CDATA[maindn.@sub@dnt]]></fieldDescription>
+	</field>
+	<field name="dnt.qty" class="java.lang.Double">
+		<fieldDescription><![CDATA[dnt.qty]]></fieldDescription>
+	</field>
+	<field name="maindn.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.tel]]></fieldDescription>
+	</field>
+	<field name="dnt.asbLotNoId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dnt.asbLotNoId]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="dnt.lotExpDate" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.lotExpDate]]></fieldDescription>
+	</field>
+	<field name="dnt.@sub@dnbomt" class="java.lang.Object">
+		<fieldDescription><![CDATA[dnt.@sub@dnbomt]]></fieldDescription>
+	</field>
+	<field name="dnt.displayQty" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.displayQty]]></fieldDescription>
+	</field>
+	<field name="dnt.displayUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[dnt.displayUnit]]></fieldDescription>
+	</field>
+	<variable name="m.itemno" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[1]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlamt" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{dnt.amt}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlgw" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{dnt.gw} * $F{dnt.ctn}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlnw" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{dnt.nw} * $F{dnt.ctn}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlvol" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{dnt.volume} * $F{dnt.ctn}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlctn" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{dnt.ctn}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<group name="ITEMNO">
+		<groupExpression><![CDATA[$F{dnt.id}]]></groupExpression>
+		<groupFooter>
+			<band height="15" splitType="Stretch">
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtPacking()]]></printWhenExpression>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="35" y="0" width="100" height="15" isRemoveLineWhenBlank="true" uuid="02222841-e87f-47fc-841a-480e8a1c2a5f">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{dnt.packingDesc}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.packingDesc")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="148" y="0" width="405" height="15" isRemoveLineWhenBlank="true" uuid="09552916-e6c3-4b9e-8a97-69c435f62357">
+						<printWhenExpression><![CDATA[!$F{dnt.packingDesc}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Left">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{dnt.packingDesc}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" x="136" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="31510778-5f7d-4ab9-8ad3-571b26329fa2">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{dnt.packingDesc}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+			</band>
+			<band height="15" splitType="Stretch">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtWeight()]]></printWhenExpression>
+				<staticText>
+					<reportElement positionType="Float" x="125" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="f9e6cc80-5c1e-46e2-9f69-61de2256a80b">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.gw} !=null && $F{dnt.nw} != null]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="35" y="0" width="90" height="15" isRemoveLineWhenBlank="true" uuid="a2c79146-c5ed-44f9-a7bf-7906dc0e2f6c">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.gw} !=null && $F{dnt.nw} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.gwnw")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="135" y="0" width="50" height="15" isRemoveLineWhenBlank="true" uuid="98e16a74-b234-49bd-90d4-60c43fb783cc"/>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.jmisNumericToString($F{dnt.gw},3)]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="233" y="0" width="50" height="15" isRemoveLineWhenBlank="true" uuid="e1fe21cd-37f9-4f6c-a287-746c9528183c">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.jmisNumericToString($F{dnt.nw},3)]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="223" y="0" width="10" height="15" isRemoveLineWhenBlank="true" uuid="1bf69598-4cd9-4b65-9ea1-4e82d7020c3a">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.gw} !=null && $F{dnt.nw} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["/"]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="285" y="0" width="35" height="15" isRemoveLineWhenBlank="true" uuid="1a1d48e1-2718-4355-b0ae-025657f7d92a">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.gw} !=null && $F{dnt.nw} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{m.weightUnit}.equals( "kg" )? $P{macvar}.getMess("ce01_core.kg") : $P{macvar}.getMess("ce01_core.lb")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="187" y="0" width="35" height="15" isRemoveLineWhenBlank="true" uuid="830a11d4-3aa8-4b61-8b38-5fe9ffcfa127">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.gw} !=null && $F{dnt.nw} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{m.weightUnit}.equals( "kg" )? $P{macvar}.getMess("ce01_core.kg") : $P{macvar}.getMess("ce01_core.lb")]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="16" splitType="Stretch">
+				<printWhenExpression><![CDATA[($P{macparam}.isPrtDimension() || $P{macparam}.isPrtVolume())]]></printWhenExpression>
+				<staticText>
+					<reportElement positionType="Float" x="125" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="a107a4ef-6360-436f-979c-aa721f5a7aec">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{dnt.dimension}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="35" y="0" width="90" height="15" isRemoveLineWhenBlank="true" uuid="c8e61c28-87d3-46a2-bd38-278f35541c2d">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{dnt.dimension}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macparam}.isPrtDimension()? $P{macvar}.getMess("ce01_trdg.dimension") : $P{macvar}.getMess("ce01_trdg.volume")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="135" y="0" width="418" height="15" isRemoveLineWhenBlank="true" uuid="76e3d9bc-9a35-4220-9012-8fb723b35c7f">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{dnt.dimension}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="16" splitType="Stretch">
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtPacking()]]></printWhenExpression>
+				<staticText>
+					<reportElement positionType="Float" x="125" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="b246c1a4-110f-449d-b3ce-cf40ff783f8d">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.perCtn} != null]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="35" y="0" width="90" height="15" isRemoveLineWhenBlank="true" uuid="043e2202-fdad-4630-8732-6dffeba32c2e">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.perCtn} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.packing")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="135" y="0" width="79" height="15" isRemoveLineWhenBlank="true" uuid="8c850add-246c-4430-a8bf-1d47bb509d67">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.perCtn} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.rep_qty_format($F{dnt.perCtn})]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="220" y="0" width="10" height="15" isRemoveLineWhenBlank="true" uuid="40c27b2a-e2d7-4ac6-9ed7-5c26438f2f70">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.perCtn} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["/"]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="237" y="0" width="63" height="15" isRemoveLineWhenBlank="true" uuid="d85c768f-3957-4dc2-876a-fd983a371771">
+						<printWhenExpression><![CDATA[$F{dnt.perCtn} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{dnt.packingUnitCode}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" x="400" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="3c4486ab-77be-4d86-822a-761cd2efe61d">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.ctn} != null]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="330" y="0" width="70" height="15" isRemoveLineWhenBlank="true" uuid="c3fdb0a5-e730-4007-b43b-974d547c00f9">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.ctn} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{dnt.ctnLabel}]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="410" y="0" width="50" height="15" isRemoveLineWhenBlank="true" uuid="9ec1f3ae-f392-4e21-9bba-1864b95c890f">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.ctn} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{dnt.ctn}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="16" splitType="Stretch">
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtPacking()]]></printWhenExpression>
+				<staticText>
+					<reportElement positionType="Float" x="125" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="b246c1a4-110f-449d-b3ce-cf40ff783f8d">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.innerQty} > 0 &&  !$F{dnt.innerUnitCode}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="35" y="0" width="90" height="15" isRemoveLineWhenBlank="true" uuid="043e2202-fdad-4630-8732-6dffeba32c2e">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.innerQty} > 0 &&  !$F{dnt.innerUnitCode}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.innerPacking")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="135" y="0" width="79" height="15" isRemoveLineWhenBlank="true" uuid="984514f8-415e-445e-8aed-33bc6af0d754">
+						<printWhenExpression><![CDATA[$F{dnt.innerQty} > 0 &&  !$F{dnt.innerUnitCode}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.rep_qty_format($F{dnt.innerQty})]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="220" y="0" width="10" height="15" isRemoveLineWhenBlank="true" uuid="40c27b2a-e2d7-4ac6-9ed7-5c26438f2f70">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.innerQty} > 0 &&  !$F{dnt.innerUnitCode}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["/"]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="237" y="0" width="63" height="15" isRemoveLineWhenBlank="true" uuid="95599772-45aa-4507-9b11-17e6024646af">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{dnt.innerQty} > 0 &&  !$F{dnt.innerUnitCode}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{dnt.innerUnitCode}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="20" height="15" uuid="b5099068-9fc2-46da-a336-12ecf6bb9733">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{m.itemno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="20" y="0" width="5" height="15" uuid="952f0f6c-a0f4-4131-b208-65e60c9c9f50">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[")"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="400" y="0" width="100" height="15" uuid="8832e73b-02d2-498b-b696-e0361361c13b">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dnt.displayQty}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="502" y="0" width="33" height="15" uuid="53cf42ce-0aca-4314-9df4-2a0dfb072ac0">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dnt.displayUnit}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="35" y="0" width="290" height="15" uuid="2631401e-50ea-4913-8f06-389e08f77c34">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="styled">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macparam}.isPrtCode()? $F{dnt.proCode} : $F{dnt.displayCode}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="16" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="35" y="0" width="365" height="15" isRemoveLineWhenBlank="true" uuid="5c590bac-f34c-455c-8203-94f6139a5c90">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<printWhenExpression><![CDATA[$P{macparam}.isPrtCode()]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="styled">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dnt.displayCode}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15" splitType="Stretch">
+			<printWhenExpression><![CDATA[$P{macparam}.isPrtDDesc() && !$F{dnt.dDesc}.isEmpty() && $P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+			<componentElement>
+				<reportElement mode="Transparent" x="35" y="0" width="365" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="305b9b0f-dbfb-4f5f-b3a7-fd220e31432d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+					<hc:htmlContentExpression><![CDATA[$F{dnt.dDesc}]]></hc:htmlContentExpression>
+				</hc:html>
+			</componentElement>
+		</band>
+		<band height="15" splitType="Stretch">
+			<printWhenExpression><![CDATA[$P{macparam}.isPrtSmark() && !$F{dnt.shipMark}.isEmpty() && $P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+			<componentElement>
+				<reportElement mode="Transparent" x="135" y="0" width="365" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="40822d56-78ef-406c-abf2-58b7c3149ae3">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+					<hc:htmlContentExpression><![CDATA[$F{dnt.shipMark}]]></hc:htmlContentExpression>
+				</hc:html>
+			</componentElement>
+			<textField>
+				<reportElement x="35" y="0" width="90" height="15" isRemoveLineWhenBlank="true" uuid="08336e63-838d-448f-8750-30678cbb0188">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.shipMark")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="125" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="20e3f9ae-3e1e-412f-8a34-b503cafbd702">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+		</band>
+		<band height="37" splitType="Stretch">
+			<printWhenExpression><![CDATA[$P{macparam}.isPrtLotno() && $F{dnt.useLotno}]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="35" y="0" width="125" height="15" uuid="7fe4af00-68bf-48b7-abdc-95a4caa26a84">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.lotno")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="220" y="0" width="80" height="15" uuid="b6a88c2a-21c3-48b2-938c-91c88e88d956">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.qty")]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="Float" x="35" y="16" width="294" height="1" uuid="7ec6dd69-106c-45bc-860e-58d4a6278549">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="35" y="17" width="125" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="5ffad58d-a09a-4fea-a92e-699759f90df6">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dnt.lotLotno}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="220" y="17" width="80" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="9447dcf0-dc37-48fe-b3ff-fca80e2980e8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dnt.lotQty}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="303" y="17" width="30" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="24e811c9-ae0e-4253-ae27-12fd11eeed95">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dnt.lotUnit}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="160" y="0" width="60" height="15" uuid="618b47da-0122-4fa5-b68c-42be963230f9">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<printWhenExpression><![CDATA[$P{macparam}.isPrtExpDate()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.expDate")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="160" y="17" width="60" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="5577b9af-7d80-4450-9f1b-7490133d51cb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<printWhenExpression><![CDATA[$P{macparam}.isPrtExpDate()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dnt.lotExpDate}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<subreport>
+				<reportElement isPrintRepeatedValues="false" x="0" y="0" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="7f2acfa5-c527-4ded-8e80-8a59e442ea72"/>
+				<subreportParameter name="macvar">
+					<subreportParameterExpression><![CDATA[$P{macvar}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="macparam">
+					<subreportParameterExpression><![CDATA[$P{macparam}]]></subreportParameterExpression>
+				</subreportParameter>
+				<dataSourceExpression><![CDATA[$F{dnt.@sub@dnbomt}]]></dataSourceExpression>
+				<subreportExpression><![CDATA["PrtDnbomt.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

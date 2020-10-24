@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<md xmlns="http://www.multiable.com/module" app="ce01_ocf">
+	<module name="ocfRem" mess="Message Content" extend="false" mainTable="ocfrem" recType="" useAccess="true" useAttach="true" useBeShare="true" useApv="true" useChangenote="true" genCode_Type="R" desc_Field="bDesc">
+		<table name="ocfrem" key="id" c="true" r="true" d="true" u="true" initRow="1" hpk="" fKey="" order=""/>
+		<checker class="com.multiable.erp.core.ejb.checker.RemarksChecker"/>
+	</module>
+	
+	<module name="ocfRedeemCoupon" mess="Redemption Coupon" extend="false" mainTable="ocfredeemcoupon" recType="" useAccess="true" useAttach="true" useApv="true" useChangenote="true" useBe="true" fmShare="N" genCode_Type="RC">
+		<table name="ocfredeemcoupon" key="id" c="true" r="true" d="true" u="true" initRow="1" hpk="" fKey="" order=""/>
+		<table name="ocfredeemcoupont" key="id" c="true" r="true" d="true" u="true" initRow="0" hpk="hId" fKey="effDate" order="" cpnType="table"/>
+		
+	</module>
+</md>

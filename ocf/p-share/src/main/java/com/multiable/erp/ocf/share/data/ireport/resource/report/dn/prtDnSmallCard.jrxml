@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2020-10-23T12:31:04 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="prtDnSmallCard" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b515160a-db7b-4e6b-a433-b3d493b43516">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ocf\ocf\p-share\src\main\java\com\multiable\erp\ocf\share\data\ireport\resource\ds\dn\dnsmallcard.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="macvar" class="com.multiable.erp.trdg.share.util.TradeJrVar" isForPrompting="false"/>
+	<parameter name="macparam" class="com.multiable.erp.ocf.share.data.ireport.dn.DnCardJrDto" isForPrompting="false"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="maindn.ocfRecipient" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ocfRecipient]]></fieldDescription>
+	</field>
+	<field name="maindn.ocfMessageContent" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ocfMessageContent]]></fieldDescription>
+	</field>
+	<field name="maindn.cardSize" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.cardSize]]></fieldDescription>
+	</field>
+	<field name="maindn.code" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.code]]></fieldDescription>
+	</field>
+	<field name="maindn.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.id]]></fieldDescription>
+	</field>
+	<field name="maindn.ocfSender" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ocfSender]]></fieldDescription>
+	</field>
+	<group name="SERIALNO">
+		<groupExpression><![CDATA[$F{maindn.id}]]></groupExpression>
+		<groupHeader>
+			<band height="190" splitType="Stretch">
+				<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+				<textField>
+					<reportElement positionType="Float" x="0" y="6" width="70" height="14" uuid="d37bf275-74fb-4ae6-a294-20ceb7f414a6"/>
+					<textElement>
+						<font isBold="true" isItalic="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["To"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement positionType="Float" x="0" y="110" width="70" height="14" uuid="09c6c70f-9261-4e98-9af9-37388285add2"/>
+					<textElement>
+						<font isBold="true" isItalic="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["From"]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement positionType="Float" x="0" y="140" width="560" height="50" uuid="6867c506-3a61-4ff1-abbb-1315841fb90a"/>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealHeight" horizontalAlign="Center" verticalAlign="Middle">
+						<hc:htmlContentExpression><![CDATA[$F{maindn.ocfSender}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+				<componentElement>
+					<reportElement positionType="Float" x="0" y="50" width="560" height="50" uuid="995822b2-bc87-40f3-b019-ec88438cdce6"/>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealHeight" horizontalAlign="Center" verticalAlign="Middle">
+						<hc:htmlContentExpression><![CDATA[$F{maindn.ocfMessageContent}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+				<textField>
+					<reportElement positionType="Float" x="115" y="20" width="265" height="18" uuid="356531b7-b5ef-454f-96d0-d7623f80162f">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Center">
+						<font size="12" isBold="true" isItalic="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{maindn.ocfRecipient}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band splitType="Stretch">
+				<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			</band>
+		</groupFooter>
+	</group>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<pageFooter>
+		<band height="15" splitType="Stretch"/>
+	</pageFooter>
+	<lastPageFooter>
+		<band height="15" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+	</lastPageFooter>
+</jasperReport>

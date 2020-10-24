@@ -1,0 +1,2675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2020-10-12T12:58:30 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="prtDn" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b515160a-db7b-4e6b-a433-b3d493b43516">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="trdg_resource\ds\dn\dn.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="macvar" class="com.multiable.erp.trdg.share.util.TradeJrVar" isForPrompting="false"/>
+	<parameter name="macparam" class="com.multiable.erp.trdg.share.data.ireport.dn.DnJrDto" isForPrompting="false"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="virdept.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[virdept.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="dept.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="ratio.unitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[ratio.unitId]]></fieldDescription>
+	</field>
+	<field name="dept.code" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.code]]></fieldDescription>
+	</field>
+	<field name="virdept.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.locked]]></fieldDescription>
+	</field>
+	<field name="cus.groupCoId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.groupCoId]]></fieldDescription>
+	</field>
+	<field name="dept.addr" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.addr]]></fieldDescription>
+	</field>
+	<field name="cus.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.beId]]></fieldDescription>
+	</field>
+	<field name="maindn.manId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.manId]]></fieldDescription>
+	</field>
+	<field name="staff.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.desc]]></fieldDescription>
+	</field>
+	<field name="maindn.curId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.curId]]></fieldDescription>
+	</field>
+	<field name="staff.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[staff.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="maindn.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="virdept.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[virdept.printCount]]></fieldDescription>
+	</field>
+	<field name="maindn.ce01Module" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ce01Module]]></fieldDescription>
+	</field>
+	<field name="cur.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[cur.id]]></fieldDescription>
+	</field>
+	<field name="virdept.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[virdept.iRev]]></fieldDescription>
+	</field>
+	<field name="maindn.tDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.tDate]]></fieldDescription>
+	</field>
+	<field name="dept.udfATupdateAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.udfATupdateAccess]]></fieldDescription>
+	</field>
+	<field name="cus.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="virdept.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="virdept.webSite" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.webSite]]></fieldDescription>
+	</field>
+	<field name="ratio.basicUnitCode" class="java.lang.String">
+		<fieldDescription><![CDATA[ratio.basicUnitCode]]></fieldDescription>
+	</field>
+	<field name="remdn.shipfax" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.shipfax]]></fieldDescription>
+	</field>
+	<field name="cus.groupCo" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.groupCo]]></fieldDescription>
+	</field>
+	<field name="dntlot.footerKey" class="java.lang.String">
+		<fieldDescription><![CDATA[dntlot.footerKey]]></fieldDescription>
+	</field>
+	<field name="virdept.udfATattSetId" class="java.lang.Long">
+		<fieldDescription><![CDATA[virdept.udfATattSetId]]></fieldDescription>
+	</field>
+	<field name="cus.webSite" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.webSite]]></fieldDescription>
+	</field>
+	<field name="maindn.dnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.dnId]]></fieldDescription>
+	</field>
+	<field name="cus.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.createUid]]></fieldDescription>
+	</field>
+	<field name="dept.webSite" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.webSite]]></fieldDescription>
+	</field>
+	<field name="cus.udfATupdateAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.udfATupdateAccess]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowSrcModule" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.multiFlowSrcModule]]></fieldDescription>
+	</field>
+	<field name="remdn.country" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.country]]></fieldDescription>
+	</field>
+	<field name="dept.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.i18nField]]></fieldDescription>
+	</field>
+	<field name="staff.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[staff.createDate]]></fieldDescription>
+	</field>
+	<field name="cus.status" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.status]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopwebId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.eshopwebId]]></fieldDescription>
+	</field>
+	<field name="remdn.shipMark" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.shipMark]]></fieldDescription>
+	</field>
+	<field name="staff.dept" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.dept]]></fieldDescription>
+	</field>
+	<field name="maindn.weightUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.weightUnit]]></fieldDescription>
+	</field>
+	<field name="maindn.descOrigin" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.descOrigin]]></fieldDescription>
+	</field>
+	<field name="maindn.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.viewCode]]></fieldDescription>
+	</field>
+	<field name="maindn.vatPer" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.vatPer]]></fieldDescription>
+	</field>
+	<field name="virdept.udfATupdateAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.udfATupdateAccess]]></fieldDescription>
+	</field>
+	<field name="maindn.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.sysJson]]></fieldDescription>
+	</field>
+	<field name="remdn.ce01Module" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.ce01Module]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="virdept.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[virdept.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="maindn.cusId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.cusId]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.ttlAmt]]></fieldDescription>
+	</field>
+	<field name="apvuser.code" class="java.lang.String">
+		<fieldDescription><![CDATA[apvuser.code]]></fieldDescription>
+	</field>
+	<field name="cur.code" class="java.lang.String">
+		<fieldDescription><![CDATA[cur.code]]></fieldDescription>
+	</field>
+	<field name="remdn.province" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.province]]></fieldDescription>
+	</field>
+	<field name="cus.ad2" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.ad2]]></fieldDescription>
+	</field>
+	<field name="cus.ad3" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.ad3]]></fieldDescription>
+	</field>
+	<field name="cus.ad1" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.ad1]]></fieldDescription>
+	</field>
+	<field name="staff.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[staff.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="cus.ad4" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.ad4]]></fieldDescription>
+	</field>
+	<field name="cus.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.desc]]></fieldDescription>
+	</field>
+	<field name="staff.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.createUid]]></fieldDescription>
+	</field>
+	<field name="cus.regionId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.regionId]]></fieldDescription>
+	</field>
+	<field name="dept.beDept" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.beDept]]></fieldDescription>
+	</field>
+	<field name="maindn.freeQtyPer" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.freeQtyPer]]></fieldDescription>
+	</field>
+	<field name="cus.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.expiredUid]]></fieldDescription>
+	</field>
+	<field name="remdn.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[remdn.id]]></fieldDescription>
+	</field>
+	<field name="cusacc.hpSetting" class="java.lang.String">
+		<fieldDescription><![CDATA[cusacc.hpSetting]]></fieldDescription>
+	</field>
+	<field name="dept.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[dept.printCount]]></fieldDescription>
+	</field>
+	<field name="remdn.cusId" class="java.lang.Long">
+		<fieldDescription><![CDATA[remdn.cusId]]></fieldDescription>
+	</field>
+	<field name="maindn.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.expiredUid]]></fieldDescription>
+	</field>
+	<field name="virdept.addr2" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.addr2]]></fieldDescription>
+	</field>
+	<field name="dept.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[dept.iRev]]></fieldDescription>
+	</field>
+	<field name="dept.email" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.email]]></fieldDescription>
+	</field>
+	<field name="remdn.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[remdn.iRev]]></fieldDescription>
+	</field>
+	<field name="virdept.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[virdept.createUid]]></fieldDescription>
+	</field>
+	<field name="virdept.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.tel]]></fieldDescription>
+	</field>
+	<field name="remdn.hId" class="java.lang.Long">
+		<fieldDescription><![CDATA[remdn.hId]]></fieldDescription>
+	</field>
+	<field name="cus.ecomMemberId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.ecomMemberId]]></fieldDescription>
+	</field>
+	<field name="remdn.heading" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.heading]]></fieldDescription>
+	</field>
+	<field name="virdept.addr3" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.addr3]]></fieldDescription>
+	</field>
+	<field name="maindn.rev" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.rev]]></fieldDescription>
+	</field>
+	<field name="cus.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.id]]></fieldDescription>
+	</field>
+	<field name="siguser.dnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[siguser.dnId]]></fieldDescription>
+	</field>
+	<field name="cus.priceTypeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.priceTypeId]]></fieldDescription>
+	</field>
+	<field name="virdept.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[virdept.createDate]]></fieldDescription>
+	</field>
+	<field name="maindn.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.createDate]]></fieldDescription>
+	</field>
+	<field name="staff.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[staff.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="remdn.gpsLat" class="java.lang.Double">
+		<fieldDescription><![CDATA[remdn.gpsLat]]></fieldDescription>
+	</field>
+	<field name="cusacc.calcDate" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.calcDate]]></fieldDescription>
+	</field>
+	<field name="cusacc.cp" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.cp]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopOrderNo" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.eshopOrderNo]]></fieldDescription>
+	</field>
+	<field name="siguser.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[siguser.desc]]></fieldDescription>
+	</field>
+	<field name="maindn.locId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.locId]]></fieldDescription>
+	</field>
+	<field name="maindn.virDeptId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.virDeptId]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccess]]></fieldDescription>
+	</field>
+	<field name="maindn.preTaxTtlAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.preTaxTtlAmt]]></fieldDescription>
+	</field>
+	<field name="cusacc.monthlyEnd" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.monthlyEnd]]></fieldDescription>
+	</field>
+	<field name="dept.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.tel]]></fieldDescription>
+	</field>
+	<field name="cusacc.periodNo" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.periodNo]]></fieldDescription>
+	</field>
+	<field name="staff.positionId" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.positionId]]></fieldDescription>
+	</field>
+	<field name="maindn.doctypeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.doctypeId]]></fieldDescription>
+	</field>
+	<field name="maindn.code" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.code]]></fieldDescription>
+	</field>
+	<field name="remdn.city" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.city]]></fieldDescription>
+	</field>
+	<field name="dept.photoCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.photoCode]]></fieldDescription>
+	</field>
+	<field name="dept.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="remdn.tradeTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.tradeTerm]]></fieldDescription>
+	</field>
+	<field name="remdn.packing" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.packing]]></fieldDescription>
+	</field>
+	<field name="maindn.printFileId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.printFileId]]></fieldDescription>
+	</field>
+	<field name="cus.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.locked]]></fieldDescription>
+	</field>
+	<field name="dept.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.viewCode]]></fieldDescription>
+	</field>
+	<field name="maindn.completed" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.completed]]></fieldDescription>
+	</field>
+	<field name="remdn.dnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[remdn.dnId]]></fieldDescription>
+	</field>
+	<field name="remdn.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.telCountry]]></fieldDescription>
+	</field>
+	<field name="dept.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[dept.createDate]]></fieldDescription>
+	</field>
+	<field name="maindn.mldcCalcType" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.mldcCalcType]]></fieldDescription>
+	</field>
+	<field name="staff.email" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.email]]></fieldDescription>
+	</field>
+	<field name="maindn.man" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.man]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlTranQty" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ttlTranQty]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlDisc" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.ttlDisc]]></fieldDescription>
+	</field>
+	<field name="cus.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[cus.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="maindn.loadGpCoData" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.loadGpCoData]]></fieldDescription>
+	</field>
+	<field name="cus.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[cus.createDate]]></fieldDescription>
+	</field>
+	<field name="virdept.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.expired]]></fieldDescription>
+	</field>
+	<field name="dept.remark" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.remark]]></fieldDescription>
+	</field>
+	<field name="virdept.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="dept.country" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.country]]></fieldDescription>
+	</field>
+	<field name="dntlot.unitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dntlot.unitId]]></fieldDescription>
+	</field>
+	<field name="cus.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="virdept.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[virdept.id]]></fieldDescription>
+	</field>
+	<field name="cusacc.dayOfMonth" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.dayOfMonth]]></fieldDescription>
+	</field>
+	<field name="virdept.supVirdept" class="java.lang.Long">
+		<fieldDescription><![CDATA[virdept.supVirdept]]></fieldDescription>
+	</field>
+	<field name="cusacc.curId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cusacc.curId]]></fieldDescription>
+	</field>
+	<field name="remdn.email" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.email]]></fieldDescription>
+	</field>
+	<field name="virdept.remark" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.remark]]></fieldDescription>
+	</field>
+	<field name="dept.udfATattSetId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dept.udfATattSetId]]></fieldDescription>
+	</field>
+	<field name="dept.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.useAccess]]></fieldDescription>
+	</field>
+	<field name="virdept.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.telCountry]]></fieldDescription>
+	</field>
+	<field name="maindn.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.telCountry]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="cus.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="maindn.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.telArea]]></fieldDescription>
+	</field>
+	<field name="maindn.lspTrackingNo" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.lspTrackingNo]]></fieldDescription>
+	</field>
+	<field name="remdn.shipCodeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[remdn.shipCodeId]]></fieldDescription>
+	</field>
+	<field name="apvuser.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[apvuser.id]]></fieldDescription>
+	</field>
+	<field name="cusacc.hId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cusacc.hId]]></fieldDescription>
+	</field>
+	<field name="maindn.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[maindn.iRev]]></fieldDescription>
+	</field>
+	<field name="staff.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[staff.expired]]></fieldDescription>
+	</field>
+	<field name="maindn.locDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.locDesc]]></fieldDescription>
+	</field>
+	<field name="maindn.apiform" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.apiform]]></fieldDescription>
+	</field>
+	<field name="cusacc.installNo" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.installNo]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopShipmentNo" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.eshopShipmentNo]]></fieldDescription>
+	</field>
+	<field name="virdept.faxArea" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.faxArea]]></fieldDescription>
+	</field>
+	<field name="staff.code" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.code]]></fieldDescription>
+	</field>
+	<field name="cus.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.telCountry]]></fieldDescription>
+	</field>
+	<field name="cus.fax" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.fax]]></fieldDescription>
+	</field>
+	<field name="dntlot.lotNoId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dntlot.lotNoId]]></fieldDescription>
+	</field>
+	<field name="staff.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[staff.locked]]></fieldDescription>
+	</field>
+	<field name="virdept.addr" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.addr]]></fieldDescription>
+	</field>
+	<field name="staff.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[staff.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="cusacc.maxcp" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.maxcp]]></fieldDescription>
+	</field>
+	<field name="cusacc.aInvMonth" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.aInvMonth]]></fieldDescription>
+	</field>
+	<field name="dept.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.locked]]></fieldDescription>
+	</field>
+	<field name="virdept.code" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.code]]></fieldDescription>
+	</field>
+	<field name="staff.staffCat" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.staffCat]]></fieldDescription>
+	</field>
+	<field name="maindn.flowTypeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.flowTypeId]]></fieldDescription>
+	</field>
+	<field name="maindn.virDeptDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.virDeptDesc]]></fieldDescription>
+	</field>
+	<field name="remdn.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.tel]]></fieldDescription>
+	</field>
+	<field name="dept.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.telCountry]]></fieldDescription>
+	</field>
+	<field name="remdn.recipient" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.recipient]]></fieldDescription>
+	</field>
+	<field name="virdept.email" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.email]]></fieldDescription>
+	</field>
+	<field name="cusacc.method" class="java.lang.String">
+		<fieldDescription><![CDATA[cusacc.method]]></fieldDescription>
+	</field>
+	<field name="maindn.fax" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.fax]]></fieldDescription>
+	</field>
+	<field name="staff.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.i18nField]]></fieldDescription>
+	</field>
+	<field name="maindn.preTaxTtlDisc" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.preTaxTtlDisc]]></fieldDescription>
+	</field>
+	<field name="apvuser.dnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[apvuser.dnId]]></fieldDescription>
+	</field>
+	<field name="virdept.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.desc]]></fieldDescription>
+	</field>
+	<field name="maindn.doctypeDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.doctypeDesc]]></fieldDescription>
+	</field>
+	<field name="dntlot.qty" class="java.lang.Double">
+		<fieldDescription><![CDATA[dntlot.qty]]></fieldDescription>
+	</field>
+	<field name="virdept.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.i18nField]]></fieldDescription>
+	</field>
+	<field name="virdept.faxCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.faxCountry]]></fieldDescription>
+	</field>
+	<field name="dept.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[dept.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="maindn.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[maindn.printCount]]></fieldDescription>
+	</field>
+	<field name="cur.sym" class="java.lang.String">
+		<fieldDescription><![CDATA[cur.sym]]></fieldDescription>
+	</field>
+	<field name="cusacc.iPostCl" class="java.lang.Double">
+		<fieldDescription><![CDATA[cusacc.iPostCl]]></fieldDescription>
+	</field>
+	<field name="maindn.amt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.amt]]></fieldDescription>
+	</field>
+	<field name="staff.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.sysJson]]></fieldDescription>
+	</field>
+	<field name="dept.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[dept.expiredDate]]></fieldDescription>
+	</field>
+	<field name="cus.cDate" class="java.util.Date">
+		<fieldDescription><![CDATA[cus.cDate]]></fieldDescription>
+	</field>
+	<field name="staff.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[staff.expiredDate]]></fieldDescription>
+	</field>
+	<field name="cus.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.i18nField]]></fieldDescription>
+	</field>
+	<field name="maindn.virDeptCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.virDeptCode]]></fieldDescription>
+	</field>
+	<field name="cus.blackListed" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.blackListed]]></fieldDescription>
+	</field>
+	<field name="staff.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[staff.iRev]]></fieldDescription>
+	</field>
+	<field name="maindn.status" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.status]]></fieldDescription>
+	</field>
+	<field name="staff.employeeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.employeeId]]></fieldDescription>
+	</field>
+	<field name="staff.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.id]]></fieldDescription>
+	</field>
+	<field name="maindn.lspOrderResponse" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.lspOrderResponse]]></fieldDescription>
+	</field>
+	<field name="remdn.shiptel" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.shiptel]]></fieldDescription>
+	</field>
+	<field name="virdept.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[virdept.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="dept.faxCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.faxCountry]]></fieldDescription>
+	</field>
+	<field name="dntlot.unitCode" class="java.lang.String">
+		<fieldDescription><![CDATA[dntlot.unitCode]]></fieldDescription>
+	</field>
+	<field name="dept.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dept.beId]]></fieldDescription>
+	</field>
+	<field name="cus.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[cus.expiredDate]]></fieldDescription>
+	</field>
+	<field name="apvuser.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[apvuser.desc]]></fieldDescription>
+	</field>
+	<field name="virdept.postal" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.postal]]></fieldDescription>
+	</field>
+	<field name="cus.code" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.code]]></fieldDescription>
+	</field>
+	<field name="dept.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.sysJson]]></fieldDescription>
+	</field>
+	<field name="cus.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.sysJson]]></fieldDescription>
+	</field>
+	<field name="maindn.deliveryRequire" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.deliveryRequire]]></fieldDescription>
+	</field>
+	<field name="virdept.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[virdept.expiredDate]]></fieldDescription>
+	</field>
+	<field name="virdept.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.sysJson]]></fieldDescription>
+	</field>
+	<field name="cus.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cus.iRev]]></fieldDescription>
+	</field>
+	<field name="maindn.lspId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.lspId]]></fieldDescription>
+	</field>
+	<field name="cusacc.stateLevel" class="java.lang.String">
+		<fieldDescription><![CDATA[cusacc.stateLevel]]></fieldDescription>
+	</field>
+	<field name="staff.birth" class="java.util.Date">
+		<fieldDescription><![CDATA[staff.birth]]></fieldDescription>
+	</field>
+	<field name="staff.sealCode" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.sealCode]]></fieldDescription>
+	</field>
+	<field name="virdept.country" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.country]]></fieldDescription>
+	</field>
+	<field name="dept.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[dept.expiredUid]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlCharge" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.ttlCharge]]></fieldDescription>
+	</field>
+	<field name="dept.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.expired]]></fieldDescription>
+	</field>
+	<field name="cus.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.expired]]></fieldDescription>
+	</field>
+	<field name="cus.eshopcusId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.eshopcusId]]></fieldDescription>
+	</field>
+	<field name="virdept.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.telArea]]></fieldDescription>
+	</field>
+	<field name="siguser.sealCode" class="java.lang.String">
+		<fieldDescription><![CDATA[siguser.sealCode]]></fieldDescription>
+	</field>
+	<field name="cur.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[cur.i18nField]]></fieldDescription>
+	</field>
+	<field name="dntlot.lotno" class="java.lang.String">
+		<fieldDescription><![CDATA[dntlot.lotno]]></fieldDescription>
+	</field>
+	<field name="cus.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.telArea]]></fieldDescription>
+	</field>
+	<field name="cus.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cus.printCount]]></fieldDescription>
+	</field>
+	<field name="dept.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.telArea]]></fieldDescription>
+	</field>
+	<field name="remdn.gpsLong" class="java.lang.Double">
+		<fieldDescription><![CDATA[remdn.gpsLong]]></fieldDescription>
+	</field>
+	<field name="dept.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.desc]]></fieldDescription>
+	</field>
+	<field name="virdept.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[virdept.expiredUid]]></fieldDescription>
+	</field>
+	<field name="maindn.eshopUpdatedAt" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.eshopUpdatedAt]]></fieldDescription>
+	</field>
+	<field name="ratio.unitCode" class="java.lang.String">
+		<fieldDescription><![CDATA[ratio.unitCode]]></fieldDescription>
+	</field>
+	<field name="remdn.shipAd2" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.shipAd2]]></fieldDescription>
+	</field>
+	<field name="cus.staffId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.staffId]]></fieldDescription>
+	</field>
+	<field name="cus.poscoreMemberId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.poscoreMemberId]]></fieldDescription>
+	</field>
+	<field name="remdn.shipAd1" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.shipAd1]]></fieldDescription>
+	</field>
+	<field name="virdept.fax" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.fax]]></fieldDescription>
+	</field>
+	<field name="remdn.shipAd4" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.shipAd4]]></fieldDescription>
+	</field>
+	<field name="remdn.shipAd3" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.shipAd3]]></fieldDescription>
+	</field>
+	<field name="apvuser.sealCode" class="java.lang.String">
+		<fieldDescription><![CDATA[apvuser.sealCode]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowSrcId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.multiFlowSrcId]]></fieldDescription>
+	</field>
+	<field name="maindn.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.createUid]]></fieldDescription>
+	</field>
+	<field name="maindn.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.expired]]></fieldDescription>
+	</field>
+	<field name="maindn.locCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.locCode]]></fieldDescription>
+	</field>
+	<field name="maindn.rate" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.rate]]></fieldDescription>
+	</field>
+	<field name="dept.postal" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.postal]]></fieldDescription>
+	</field>
+	<field name="remdn.payTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.payTerm]]></fieldDescription>
+	</field>
+	<field name="staff.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[staff.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="maindn.measUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.measUnit]]></fieldDescription>
+	</field>
+	<field name="dept.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[dept.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="maindn.upOrigin" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.upOrigin]]></fieldDescription>
+	</field>
+	<field name="dntlot.dnId" class="java.lang.Long">
+		<fieldDescription><![CDATA[dntlot.dnId]]></fieldDescription>
+	</field>
+	<field name="dept.faxArea" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.faxArea]]></fieldDescription>
+	</field>
+	<field name="remdn.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.i18nField]]></fieldDescription>
+	</field>
+	<field name="dept.fax" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.fax]]></fieldDescription>
+	</field>
+	<field name="virdept.photoCode" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.photoCode]]></fieldDescription>
+	</field>
+	<field name="staff.mobile" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.mobile]]></fieldDescription>
+	</field>
+	<field name="maindn.staffId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.staffId]]></fieldDescription>
+	</field>
+	<field name="staff.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="staff.sex" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.sex]]></fieldDescription>
+	</field>
+	<field name="dept.supDept" class="java.lang.Long">
+		<fieldDescription><![CDATA[dept.supDept]]></fieldDescription>
+	</field>
+	<field name="maindn.cnDeptId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.cnDeptId]]></fieldDescription>
+	</field>
+	<field name="ratio.basicUnit" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[ratio.basicUnit]]></fieldDescription>
+	</field>
+	<field name="cus.email" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.email]]></fieldDescription>
+	</field>
+	<field name="staff.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[staff.useAccess]]></fieldDescription>
+	</field>
+	<field name="cus.udfATattSetId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cus.udfATattSetId]]></fieldDescription>
+	</field>
+	<field name="maindn.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.beId]]></fieldDescription>
+	</field>
+	<field name="dept.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[dept.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="maindn.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.id]]></fieldDescription>
+	</field>
+	<field name="maindn.doctypeCode" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.doctypeCode]]></fieldDescription>
+	</field>
+	<field name="staff.status" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.status]]></fieldDescription>
+	</field>
+	<field name="cusacc.ptOption" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.ptOption]]></fieldDescription>
+	</field>
+	<field name="maindn.ttlTranUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.ttlTranUnit]]></fieldDescription>
+	</field>
+	<field name="maindn.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.locked]]></fieldDescription>
+	</field>
+	<field name="virdept.status" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.status]]></fieldDescription>
+	</field>
+	<field name="cusacc.monthlyOption" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.monthlyOption]]></fieldDescription>
+	</field>
+	<field name="dept.repTitle" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.repTitle]]></fieldDescription>
+	</field>
+	<field name="staff.virDeptId" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.virDeptId]]></fieldDescription>
+	</field>
+	<field name="maindn.taxAmt" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.taxAmt]]></fieldDescription>
+	</field>
+	<field name="cusacc.ePostCl" class="java.lang.Double">
+		<fieldDescription><![CDATA[cusacc.ePostCl]]></fieldDescription>
+	</field>
+	<field name="virdept.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="virdept.isBu" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.isBu]]></fieldDescription>
+	</field>
+	<field name="staff.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.viewCode]]></fieldDescription>
+	</field>
+	<field name="ratio.proId" class="java.lang.Long">
+		<fieldDescription><![CDATA[ratio.proId]]></fieldDescription>
+	</field>
+	<field name="maindn.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="maindn.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="dept.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[dept.createUid]]></fieldDescription>
+	</field>
+	<field name="remdn.remarks" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.remarks]]></fieldDescription>
+	</field>
+	<field name="cus.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.useAccess]]></fieldDescription>
+	</field>
+	<field name="virdept.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[virdept.useAccess]]></fieldDescription>
+	</field>
+	<field name="cusacc.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[cusacc.iRev]]></fieldDescription>
+	</field>
+	<field name="dept.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[dept.id]]></fieldDescription>
+	</field>
+	<field name="siguser.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[siguser.id]]></fieldDescription>
+	</field>
+	<field name="dept.status" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.status]]></fieldDescription>
+	</field>
+	<field name="virdept.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[virdept.beId]]></fieldDescription>
+	</field>
+	<field name="ratio.ratioN" class="java.lang.Integer">
+		<fieldDescription><![CDATA[ratio.ratioN]]></fieldDescription>
+	</field>
+	<field name="siguser.code" class="java.lang.String">
+		<fieldDescription><![CDATA[siguser.code]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowFlowId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.multiFlowFlowId]]></fieldDescription>
+	</field>
+	<field name="virdept.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[virdept.viewCode]]></fieldDescription>
+	</field>
+	<field name="cusacc.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[cusacc.id]]></fieldDescription>
+	</field>
+	<field name="staff.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.beId]]></fieldDescription>
+	</field>
+	<field name="remdn.zipcode" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.zipcode]]></fieldDescription>
+	</field>
+	<field name="remdn.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.telArea]]></fieldDescription>
+	</field>
+	<field name="maindn.multiFlowSrcBeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.multiFlowSrcBeId]]></fieldDescription>
+	</field>
+	<field name="staff.position" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.position]]></fieldDescription>
+	</field>
+	<field name="dept.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[dept.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="maindn.lspmainpickId" class="java.lang.Long">
+		<fieldDescription><![CDATA[maindn.lspmainpickId]]></fieldDescription>
+	</field>
+	<field name="cusacc.slmId" class="java.lang.Long">
+		<fieldDescription><![CDATA[cusacc.slmId]]></fieldDescription>
+	</field>
+	<field name="maindn.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[maindn.expiredDate]]></fieldDescription>
+	</field>
+	<field name="maindn.@sub@dnt" class="java.lang.Object">
+		<fieldDescription><![CDATA[maindn.@sub@dnt]]></fieldDescription>
+	</field>
+	<field name="ratio.ratioD" class="java.lang.Integer">
+		<fieldDescription><![CDATA[ratio.ratioD]]></fieldDescription>
+	</field>
+	<field name="cus.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[cus.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="staff.mobileCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.mobileCountry]]></fieldDescription>
+	</field>
+	<field name="staff.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[staff.expiredUid]]></fieldDescription>
+	</field>
+	<field name="cur.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[cur.desc]]></fieldDescription>
+	</field>
+	<field name="dept.addr3" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.addr3]]></fieldDescription>
+	</field>
+	<field name="cus.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[cus.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="remdn.fax" class="java.lang.String">
+		<fieldDescription><![CDATA[remdn.fax]]></fieldDescription>
+	</field>
+	<field name="dept.addr2" class="java.lang.String">
+		<fieldDescription><![CDATA[dept.addr2]]></fieldDescription>
+	</field>
+	<field name="maindn.preTaxTtlCharge" class="java.lang.Double">
+		<fieldDescription><![CDATA[maindn.preTaxTtlCharge]]></fieldDescription>
+	</field>
+	<field name="maindn.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.tel]]></fieldDescription>
+	</field>
+	<field name="cus.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.tel]]></fieldDescription>
+	</field>
+	<field name="maindn.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.i18nField]]></fieldDescription>
+	</field>
+	<field name="staff.poscorePwd" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.poscorePwd]]></fieldDescription>
+	</field>
+	<field name="staff.poscoreLoginId" class="java.lang.String">
+		<fieldDescription><![CDATA[staff.poscoreLoginId]]></fieldDescription>
+	</field>
+	<field name="maindn.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[maindn.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="staff.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[staff.printCount]]></fieldDescription>
+	</field>
+	<field name="ratio.basicUnitId" class="java.lang.Long">
+		<fieldDescription><![CDATA[ratio.basicUnitId]]></fieldDescription>
+	</field>
+	<field name="cus.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[cus.viewCode]]></fieldDescription>
+	</field>
+	<field name="maindn.position" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.position]]></fieldDescription>
+	</field>
+	<field name="mloc.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[mloc.expiredDate]]></fieldDescription>
+	</field>
+	<field name="mloc.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.desc]]></fieldDescription>
+	</field>
+	<field name="mloc.remarks" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.remarks]]></fieldDescription>
+	</field>
+	<field name="mloc.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[mloc.id]]></fieldDescription>
+	</field>
+	<field name="mloc.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[mloc.createUid]]></fieldDescription>
+	</field>
+	<field name="mloc.isGits" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.isGits]]></fieldDescription>
+	</field>
+	<field name="mloc.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[mloc.printCount]]></fieldDescription>
+	</field>
+	<field name="mloc.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[mloc.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="mloc.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[mloc.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="mloc.tel" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.tel]]></fieldDescription>
+	</field>
+	<field name="mloc.status" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.status]]></fieldDescription>
+	</field>
+	<field name="mloc.udfATattSetId" class="java.lang.Long">
+		<fieldDescription><![CDATA[mloc.udfATattSetId]]></fieldDescription>
+	</field>
+	<field name="mloc.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="mloc.telCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.telCountry]]></fieldDescription>
+	</field>
+	<field name="mloc.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[mloc.beId]]></fieldDescription>
+	</field>
+	<field name="mloc.ad1" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.ad1]]></fieldDescription>
+	</field>
+	<field name="mloc.ad2" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.ad2]]></fieldDescription>
+	</field>
+	<field name="mloc.ad3" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.ad3]]></fieldDescription>
+	</field>
+	<field name="mloc.ad4" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.ad4]]></fieldDescription>
+	</field>
+	<field name="mloc.gpsLong" class="java.lang.Double">
+		<fieldDescription><![CDATA[mloc.gpsLong]]></fieldDescription>
+	</field>
+	<field name="mloc.udfATupdateAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.udfATupdateAccess]]></fieldDescription>
+	</field>
+	<field name="mloc.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[mloc.createDate]]></fieldDescription>
+	</field>
+	<field name="mloc.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="mloc.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[mloc.iRev]]></fieldDescription>
+	</field>
+	<field name="mloc.city" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.city]]></fieldDescription>
+	</field>
+	<field name="mloc.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[mloc.expiredUid]]></fieldDescription>
+	</field>
+	<field name="mloc.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.viewCode]]></fieldDescription>
+	</field>
+	<field name="mloc.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.sysJson]]></fieldDescription>
+	</field>
+	<field name="mloc.recipient" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.recipient]]></fieldDescription>
+	</field>
+	<field name="mloc.sTemp" class="java.lang.Double">
+		<fieldDescription><![CDATA[mloc.sTemp]]></fieldDescription>
+	</field>
+	<field name="mloc.gpsLat" class="java.lang.Double">
+		<fieldDescription><![CDATA[mloc.gpsLat]]></fieldDescription>
+	</field>
+	<field name="mloc.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.expired]]></fieldDescription>
+	</field>
+	<field name="mloc.sHumid" class="java.lang.Double">
+		<fieldDescription><![CDATA[mloc.sHumid]]></fieldDescription>
+	</field>
+	<field name="mloc.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.useAccess]]></fieldDescription>
+	</field>
+	<field name="mloc.telArea" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.telArea]]></fieldDescription>
+	</field>
+	<field name="mloc.eTemp" class="java.lang.Double">
+		<fieldDescription><![CDATA[mloc.eTemp]]></fieldDescription>
+	</field>
+	<field name="mloc.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.i18nField]]></fieldDescription>
+	</field>
+	<field name="mloc.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[mloc.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="mloc.eHumid" class="java.lang.Double">
+		<fieldDescription><![CDATA[mloc.eHumid]]></fieldDescription>
+	</field>
+	<field name="mloc.locTypeId" class="java.lang.Long">
+		<fieldDescription><![CDATA[mloc.locTypeId]]></fieldDescription>
+	</field>
+	<field name="mloc.zipcode" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.zipcode]]></fieldDescription>
+	</field>
+	<field name="mloc.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="mloc.code" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.code]]></fieldDescription>
+	</field>
+	<field name="mloc.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[mloc.locked]]></fieldDescription>
+	</field>
+	<field name="mloc.province" class="java.lang.String">
+		<fieldDescription><![CDATA[mloc.province]]></fieldDescription>
+	</field>
+	<field name="maindn.faxCountry" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.faxCountry]]></fieldDescription>
+	</field>
+	<field name="maindn.faxArea" class="java.lang.String">
+		<fieldDescription><![CDATA[maindn.faxArea]]></fieldDescription>
+	</field>
+	<variable name="waterMark" class="com.multiable.ir.CawJrWaterMark" resetType="None">
+		<variableExpression><![CDATA[$P{macvar}.getWaterMark()]]></variableExpression>
+	</variable>
+	<variable name="company" class="com.multiable.ir.CawJrCompany" resetType="None">
+		<variableExpression><![CDATA[$P{macvar}.getCompany($P{macparam}.getPrtLogoType(), $F{maindn.beId}, $F{maindn.virDeptId})]]></variableExpression>
+	</variable>
+	<variable name="user" class="com.multiable.UserDto" resetType="None">
+		<variableExpression><![CDATA[$P{macvar}.getUser()]]></variableExpression>
+	</variable>
+	<variable name="m.ttlgw" class="java.lang.Double">
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlnw" class="java.lang.Double">
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlvol" class="java.lang.Double">
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="m.ttlctn" class="java.lang.Double">
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<group name="SERIALNO2" footerPosition="StackAtBottom">
+		<groupExpression><![CDATA[$F{maindn.id}]]></groupExpression>
+		<groupFooter>
+			<band height="136">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() || $P{macparam}.isPrtClientSignature()]]></printWhenExpression>
+				<line>
+					<reportElement x="320" y="105" width="225" height="1" isRemoveLineWhenBlank="true" uuid="9ad0bc2c-21c3-4207-b372-e2ccb99c6e0b">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtClientSignature()]]></printWhenExpression>
+					</reportElement>
+				</line>
+				<textField>
+					<reportElement x="320" y="121" width="225" height="15" isRemoveLineWhenBlank="true" uuid="c66597ad-581f-444c-a227-2d4c6c2b389c">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtClientSignature() && !$F{cus.code}.isEmpty() && $P{macparam}.getPrtOwnSignType().equals("user")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{cus.desc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="">
+					<reportElement key="" x="20" y="90" width="120" height="15" isRemoveLineWhenBlank="true" uuid="b7ece723-bd14-42bc-92f6-85a880744435">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() && $P{macparam}.getPrtOwnSignType().equals("user")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{siguser.desc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="">
+					<reportElement key="" x="150" y="90" width="120" height="15" isRemoveLineWhenBlank="true" uuid="79289fc1-232e-49e0-a608-c7e95b359ada">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{apvuser.desc}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="20" y="105" width="120" height="1" isRemoveLineWhenBlank="true" uuid="069f0e3b-c160-4a00-841c-7f5ab3d8bb7f">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature()]]></printWhenExpression>
+					</reportElement>
+				</line>
+				<line>
+					<reportElement x="150" y="105" width="120" height="1" isRemoveLineWhenBlank="true" uuid="52d969c3-12c9-4fc0-b158-495a6cf59174">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature()]]></printWhenExpression>
+					</reportElement>
+				</line>
+				<textField>
+					<reportElement x="20" y="106" width="120" height="15" isRemoveLineWhenBlank="true" uuid="2a26f37c-b622-4dac-a86f-48a2dc5e15d6">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() && $P{macparam}.getPrtOwnSignType().equals("user")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.preparedBy")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="150" y="106" width="120" height="15" isRemoveLineWhenBlank="true" uuid="37035e57-79b3-41b1-a3c2-6a8134996265">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.approvedBy")]]></textFieldExpression>
+				</textField>
+				<textField pattern="">
+					<reportElement x="20" y="121" width="250" height="15" isRemoveLineWhenBlank="true" uuid="a6de0029-0bf5-422d-9943-3ba293346ae7">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() && $P{macparam}.getPrtOwnSignType().equals("user")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{company}.getCoDesc()]]></textFieldExpression>
+				</textField>
+				<image hAlign="Center" vAlign="Bottom" isUsingCache="true" onErrorType="Blank">
+					<reportElement x="20" y="30" width="120" height="60" uuid="8404b868-2661-4356-8f81-c7b910b952a0">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() && !$F{siguser.sealCode}.isEmpty() && $P{macparam}.getPrtOwnSignType().equals("user")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{macvar}.getImage($F{siguser.sealCode}, 1)]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Bottom" isUsingCache="true" onErrorType="Blank">
+					<reportElement x="150" y="30" width="120" height="60" uuid="adb4c600-257b-4f90-959a-792a84469da7">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() &&  !$F{apvuser.sealCode}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{macvar}.getImage($F{apvuser.sealCode}, 1)]]></imageExpression>
+				</image>
+				<textField pattern="">
+					<reportElement x="20" y="0" width="250" height="15" isRemoveLineWhenBlank="true" uuid="1f586324-9128-4fc3-b653-3eba9df429e0">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() && $P{macparam}.getPrtOwnSignType().equals("staff")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.forAndOnBehalfOf")]]></textFieldExpression>
+				</textField>
+				<textField pattern="">
+					<reportElement x="20" y="15" width="250" height="15" isRemoveLineWhenBlank="true" uuid="dec70888-4476-447c-8900-2375adac1fbf">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() && $P{macparam}.getPrtOwnSignType().equals("staff")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{company}.getCoDesc()]]></textFieldExpression>
+				</textField>
+				<textField pattern="">
+					<reportElement key="" x="320" y="106" width="225" height="15" isRemoveLineWhenBlank="true" uuid="a4bfeb41-bd06-4e98-a268-edbb216f8cc1">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtClientSignature() && !$F{cus.code}.isEmpty() && $P{macparam}.getPrtOwnSignType().equals("staff")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{cus.desc}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="">
+					<reportElement key="" x="20" y="106" width="120" height="15" isRemoveLineWhenBlank="true" uuid="228af690-df1e-430b-94ad-7711c69d7ee5">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() && $P{macparam}.getPrtOwnSignType().equals("staff")]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{staff.desc} + ($F{staff.position}.isEmpty()? "":" - ") + $F{staff.position}]]></textFieldExpression>
+				</textField>
+				<image hAlign="Center" vAlign="Bottom" isUsingCache="true" onErrorType="Blank">
+					<reportElement x="20" y="30" width="120" height="60" uuid="2bd03420-9cf3-4975-b4b9-891c471b906e">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtOwnSignature() &&  !$F{staff.sealCode}.isEmpty() && $P{macparam}.getPrtOwnSignType().equals("staff")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{macvar}.getImage($F{staff.sealCode}, 1)]]></imageExpression>
+				</image>
+			</band>
+		</groupFooter>
+	</group>
+	<group name="SERIALNO">
+		<groupExpression><![CDATA[$F{maindn.id}]]></groupExpression>
+		<groupHeader>
+			<band height="15" splitType="Stretch">
+				<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+				<printWhenExpression><![CDATA[!$F{remdn.heading}.isEmpty()]]></printWhenExpression>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="0" y="0" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="6cc7b8a2-6506-44ca-aee2-6f084c1b87ac">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<textElement markup="styled">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.heading}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement mode="Transparent" x="0" y="0" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="39a957ca-f7e3-4d68-a0f8-e2b7c495bc8d">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+						<hc:htmlContentExpression><![CDATA[$F{remdn.heading}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="15" splitType="Stretch">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+				<subreport>
+					<reportElement isPrintRepeatedValues="false" x="0" y="0" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2c410e3b-b5a1-464b-a328-eea227660506"/>
+					<subreportParameter name="macvar">
+						<subreportParameterExpression><![CDATA[$P{macvar}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="macparam">
+						<subreportParameterExpression><![CDATA[$P{macparam}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="m.weightUnit">
+						<subreportParameterExpression><![CDATA[$F{maindn.weightUnit}]]></subreportParameterExpression>
+					</subreportParameter>
+					<dataSourceExpression><![CDATA[$F{maindn.@sub@dnt}]]></dataSourceExpression>
+					<returnValue subreportVariable="m.ttlgw" toVariable="m.ttlgw"/>
+					<returnValue subreportVariable="m.ttlnw" toVariable="m.ttlnw"/>
+					<returnValue subreportVariable="m.ttlvol" toVariable="m.ttlvol"/>
+					<returnValue subreportVariable="m.ttlctn" toVariable="m.ttlctn"/>
+					<subreportExpression><![CDATA["prtDnt.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+			<band height="22" splitType="Stretch">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+				<textField isBlankWhenNull="true">
+					<reportElement x="330" y="1" width="70" height="15" isRemoveLineWhenBlank="true" uuid="de3087f1-8d97-4a98-8705-e183c71b1cd9">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTTLQty() && !$F{maindn.ttlTranQty}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0"/>
+					</box>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.totalQty")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="400" y="1" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c9d25731-24fd-4730-916b-5ec40bc93c89">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTTLQty()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{maindn.ttlTranQty}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="502" y="1" width="33" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2558f818-45c2-466b-8fba-e6b17ff5fc21">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTTLQty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{maindn.ttlTranUnit}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="400" y="0" width="128" height="1" isRemoveLineWhenBlank="true" uuid="8b920b4e-cdae-4a5d-b874-ea76b765d026">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTTLQty() && !$F{maindn.ttlTranQty}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+				</line>
+				<line>
+					<reportElement positionType="Float" x="400" y="17" width="128" height="1" isRemoveLineWhenBlank="true" uuid="60845402-5ca1-42ff-9725-113972beb9c5">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTTLQty() && !$F{maindn.ttlTranQty}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+				</line>
+				<line>
+					<reportElement positionType="Float" x="400" y="20" width="128" height="1" isRemoveLineWhenBlank="true" uuid="cb1c02e2-9323-46c9-bbed-53915c766de4">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTTLQty() && !$F{maindn.ttlTranQty}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+				</line>
+			</band>
+			<band height="32" splitType="Stretch">
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtPacking()]]></printWhenExpression>
+				<textField isBlankWhenNull="true">
+					<reportElement x="75" y="1" width="80" height="15" uuid="988969a8-6d67-400e-86b0-1278385f181c">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlgw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0"/>
+					</box>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.ttlGrossWeight")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement key="" x="165" y="1" width="83" height="15" isPrintWhenDetailOverflows="true" uuid="c5708ea6-58ee-41d1-aa19-7e71bea2d2ff">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlgw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.jmisNumericToString($V{m.ttlgw},3)]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement key="" x="290" y="1" width="80" height="15" uuid="e1dc9b38-054d-4504-838c-b361de74dcfd">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlvol} != null && $P{macparam}.isPrtVolume()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.ttlVolume")]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement key="" x="380" y="1" width="85" height="15" uuid="7765ee67-f714-493e-8e1a-f38192b59713">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlvol} != null && $P{macparam}.isPrtVolume()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.jmisNumericToString($V{m.ttlvol},3)]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="155" y="1" width="5" height="15" isRemoveLineWhenBlank="true" uuid="00b3ecae-2e84-41f8-83d0-f7133e0a0a12">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlgw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="370" y="1" width="5" height="15" isRemoveLineWhenBlank="true" uuid="4834b71d-c11e-434a-b6b6-3d42cc3b4135">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlvol} != null && $P{macparam}.isPrtVolume()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="75" y="16" width="80" height="15" uuid="74ce061b-8e59-4184-8de6-4afe441b7577">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlnw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0"/>
+					</box>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.ttlNetWeight")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement key="" x="165" y="16" width="83" height="15" isPrintWhenDetailOverflows="true" uuid="dbc1cdd8-bd29-48b9-80c2-ca39b9bc67d1">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlnw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.jmisNumericToString($V{m.ttlnw},3)]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement key="" x="290" y="16" width="80" height="15" uuid="748a0bab-130e-4c97-bfc3-419042dadeb6">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlctn} != null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.ttlCarton")]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement key="" x="380" y="16" width="85" height="15" uuid="4d6de0e1-d620-49bb-8eba-1f76b499c57a">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.jmisNumericToString($V{m.ttlctn},0)]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="155" y="16" width="5" height="15" isRemoveLineWhenBlank="true" uuid="e4a621ca-9cbe-43f8-b265-8acf2e101577">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlnw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="370" y="16" width="5" height="15" isRemoveLineWhenBlank="true" uuid="e15993b5-2ddb-4589-abba-825ab40f13d6">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlctn} != null]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="251" y="1" width="35" height="15" isRemoveLineWhenBlank="true" uuid="d6a74bae-21e2-4df0-9e95-094f3493fa0c">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlgw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{maindn.weightUnit}.equals( "kg" )? $P{macvar}.getMess("ce01_core.kg") : $P{macvar}.getMess("ce01_core.lb")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="251" y="16" width="35" height="15" isRemoveLineWhenBlank="true" uuid="1c9a3425-ea14-4a5a-9100-4575cbbd234f">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlnw} != null && $P{macparam}.isPrtWeight()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{maindn.weightUnit}.equals( "kg" )? $P{macvar}.getMess("ce01_core.kg") : $P{macvar}.getMess("ce01_core.lb")]]></textFieldExpression>
+				</textField>
+				<textField pattern="" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="470" y="1" width="35" height="15" isRemoveLineWhenBlank="true" uuid="5f3c5eba-91a2-408c-8449-cccf035a1279">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$V{m.ttlvol} != null && $P{macparam}.isPrtVolume()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{maindn.measUnit}.equals( "cuft" )? $P{macvar}.getMess("ce01_trdg.cuft") : $P{macvar}.getMess("ce01_trdg.cbm")]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="15" splitType="Stretch">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<printWhenExpression><![CDATA[!$F{remdn.tradeTerm}.isEmpty()]]></printWhenExpression>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="86473d09-ae89-4ca5-b53d-ff4762f4e454">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.tradeterm")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="7ff887be-a58f-4aa3-9645-1a4619a09389">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="64874c27-c169-4f3b-98e4-f681af122a95">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<textElement markup="styled">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.tradeTerm}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement mode="Transparent" x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="00ab3c5b-c80d-49e1-a2a5-6b0d3a4f7721">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+						<hc:htmlContentExpression><![CDATA[$F{remdn.tradeTerm}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+			</band>
+			<band height="15" splitType="Stretch">
+				<printWhenExpression><![CDATA[!$F{remdn.payTerm}.isEmpty()]]></printWhenExpression>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="b2935779-62f0-421b-9fdd-54b8d3d706eb">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.payterm")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="9dc9fa65-36ce-4397-bccd-d398c71175a7">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8dbb2bce-aca8-43e7-b34f-400d9eef3142">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<textElement markup="styled">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.payTerm}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement mode="Transparent" x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="19186b5e-1d81-4d97-b2fe-98f3552a1994">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+						<hc:htmlContentExpression><![CDATA[$F{remdn.payTerm}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+			</band>
+			<band height="15" splitType="Stretch">
+				<printWhenExpression><![CDATA[!$F{remdn.packing}.isEmpty()]]></printWhenExpression>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="ab664cb9-1ea9-46f8-a1a8-13b3d3c5c26d">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.packing")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="fb3cf713-372b-4c19-a201-05251bf038af">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b8b397ba-9535-4a53-a541-693bc75a2796">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<textElement markup="styled">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.packing}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement mode="Transparent" x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ba4d9a94-37c1-4227-b218-be2accee8b12">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+						<hc:htmlContentExpression><![CDATA[$F{remdn.packing}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+			</band>
+			<band height="15" splitType="Stretch">
+				<printWhenExpression><![CDATA[!$F{remdn.shipMark}.isEmpty()]]></printWhenExpression>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="ab664cb9-1ea9-46f8-a1a8-13b3d3c5c26d">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.shipMark")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="fb3cf713-372b-4c19-a201-05251bf038af">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="dac50593-b37b-4787-b679-2e86b0c67cfa">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<textElement markup="styled">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.shipMark}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement mode="Transparent" x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b0cc9af5-88f3-4ad2-9ed4-b7bd41c5c5ce">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+						<hc:htmlContentExpression><![CDATA[$F{remdn.shipMark}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+			</band>
+			<band height="15" splitType="Stretch">
+				<printWhenExpression><![CDATA[!$F{remdn.remarks}.isEmpty()]]></printWhenExpression>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="8a84ca64-e0e6-4361-972e-611f77551acb">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("core.remark")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="dae3e48e-6d94-4b43-a0db-0f6d75b77ee3">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="dd35b536-5130-4ddb-a2cd-14b48eb9a37d">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<textElement markup="styled">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.remarks}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement mode="Transparent" x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="3f9a295a-287f-4a5d-bb58-6fad27ec5cb2">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtTextHtml()]]></printWhenExpression>
+					</reportElement>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RealSize" horizontalAlign="Left" verticalAlign="Top">
+						<hc:htmlContentExpression><![CDATA[$F{remdn.remarks}]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+			</band>
+			<band height="60" splitType="Stretch">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtCusShip()]]></printWhenExpression>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="ade60b89-8146-47de-b912-1717d2677ae0">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[!TRIM($F{remdn.shipAd1} + $F{remdn.shipAd2} + $F{remdn.shipAd3} + $F{remdn.shipAd4}).isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="false">
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="71334d55-e81b-4b95-ae95-2e11866208d3">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!TRIM($F{remdn.shipAd1} + $F{remdn.shipAd2} + $F{remdn.shipAd3} + $F{remdn.shipAd4}).isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.shipAd")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="699adb05-bab8-4fae-849c-6f8dc46e2ff5">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.shipAd1}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="120" y="15" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="a2336a44-ca98-43e2-8cf8-00b79fe81c28">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.shipAd2}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="120" y="30" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="0c6ea774-a5f5-4f0d-9b91-79ad9da8f8b5">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.shipAd3}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement positionType="Float" x="120" y="45" width="435" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f1ad7962-d6d8-4c4e-9ed3-6bb7aa2ec553">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.shipAd4}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="30" splitType="Stretch">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<printWhenExpression><![CDATA[$P{macparam}.isPrtCusShip()]]></printWhenExpression>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="04facdba-0bfe-47c8-9e3f-6b63198953eb">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{remdn.shiptel}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="fe6edd5f-fdd5-4e67-bf54-65af3b5f6e52">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{remdn.shiptel}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.shiptel")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" uuid="5c8ce28e-923f-4b7c-929f-34a82077660a">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.telCountry} +
+(!$F{remdn.telCountry}.isEmpty() && (!$F{remdn.telArea}.isEmpty()|| !$F{remdn.shiptel}.isEmpty())? " - ":"") + 
+$F{remdn.telArea} +
+(!$F{remdn.telArea}.isEmpty() && (!$F{remdn.shiptel}.isEmpty())? " - ":"") + 
+$F{remdn.shiptel}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="15" width="5" height="15" isRemoveLineWhenBlank="true" uuid="bd3f93cc-d5b4-4f85-b063-a4bb5d35cf92">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{remdn.shipfax}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="0" y="15" width="110" height="15" isRemoveLineWhenBlank="true" uuid="aec1ce71-dbe4-4f5f-8a87-8aec6a04e35d">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[!$F{remdn.shipfax}.isEmpty()]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.shipfax")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="15" width="435" height="15" isRemoveLineWhenBlank="true" uuid="0dc52d7d-66ed-4d8b-a24b-1473b20a6026">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.shipfax}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="15" splitType="Stretch">
+				<printWhenExpression><![CDATA[!$F{remdn.recipient}.isEmpty() && $P{macparam}.isPrtCusShip()]]></printWhenExpression>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="8a84ca64-e0e6-4361-972e-611f77551acb">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.recipientName")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="dae3e48e-6d94-4b43-a0db-0f6d75b77ee3">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" uuid="6455468c-d650-4915-b9ad-bc7680d25dfe">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.recipient}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="15" splitType="Stretch">
+				<printWhenExpression><![CDATA[!$F{remdn.email}.isEmpty() && $P{macparam}.isPrtCusShip()]]></printWhenExpression>
+				<textField>
+					<reportElement x="0" y="0" width="110" height="15" isRemoveLineWhenBlank="true" uuid="8a84ca64-e0e6-4361-972e-611f77551acb">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getMess("email")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="110" y="0" width="5" height="15" isRemoveLineWhenBlank="true" uuid="dae3e48e-6d94-4b43-a0db-0f6d75b77ee3">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="120" y="0" width="435" height="15" isRemoveLineWhenBlank="true" uuid="34210c6d-af9b-454e-80f7-b3cf584294c1">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{remdn.email}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band height="802" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<image hAlign="Center" vAlign="Middle" isUsingCache="true" onErrorType="Blank">
+				<reportElement x="0" y="0" width="555" height="802" uuid="7d44c04a-9419-47fc-aa8e-be7d1c062363">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[$P{macparam}.isPrtWaterMark()]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{macvar}.getImage($V{waterMark}.getWaterMark($F{maindn.status}), 1)]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<pageHeader>
+		<band height="267" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="407" y="140" width="148" height="15" uuid="a469a88e-a54b-4ec5-972e-cb536939130b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["##" + $F{maindn.code} +  ($P{macparam}.isPrtVersion()?  "(" + $F{maindn.rev}.trim() + ")" : "") + "##"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="140" width="37" height="15" uuid="cc31973d-dfdb-480d-8df3-f93b6537fe48">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{cus.code}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.messrs")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="37" y="140" width="5" height="15" uuid="7df2a206-ec55-4e73-8681-bdccb0381bb5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{cus.code}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="330" y="140" width="66" height="15" uuid="1186df7e-b345-432c-af16-46d29b3e2e79">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.docno")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="398" y="140" width="5" height="15" uuid="4021f583-0a7f-4cac-9799-f0eb3b491a6b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField pattern="yyyy/MM/dd" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="407" y="155" width="148" height="15" uuid="1b5c7494-da76-4c42-9678-c88fe89321db">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.rep_date_format($F{maindn.tDate})]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="330" y="155" width="66" height="15" uuid="0810f530-0c48-4d72-99bc-95d13abb29d0">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{maindn.tDate} != null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("core.date")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="398" y="155" width="5" height="15" uuid="4c544578-c65c-4254-b63e-0ad649bc9372">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{maindn.tDate} != null]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="407" y="170" width="148" height="15" uuid="3d66a645-9ae0-4d62-88bc-137eb800af82">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cus.code}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="330" y="170" width="66" height="15" uuid="f62e2886-9c4b-41a8-9860-c3002dc3216f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{cus.code}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.cus")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="398" y="170" width="5" height="15" uuid="803b0468-fa77-4110-9085-48968d41bfd2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{cus.code}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="407" y="185" width="148" height="15" isRemoveLineWhenBlank="true" uuid="7c4bc2ab-d868-4ead-b358-794ef2f934bf">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.telCountry}.isEmpty() || !$F{maindn.telArea}.isEmpty()  || !$F{maindn.tel}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{maindn.telCountry} +
+(!$F{maindn.telCountry}.isEmpty() && (!$F{maindn.telArea}.isEmpty()|| !$F{maindn.tel}.isEmpty())? " - ":"") + 
+$F{maindn.telArea} +
+(!$F{maindn.telArea}.isEmpty() && (!$F{maindn.tel}.isEmpty())? " - ":"") + 
+$F{maindn.tel}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="330" y="185" width="66" height="15" isRemoveLineWhenBlank="true" uuid="8bdb5b3d-fec5-43b3-9538-47c1f3d5c212">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.telCountry}.isEmpty() || !$F{maindn.telArea}.isEmpty()  || !$F{maindn.tel}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.tel")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="398" y="185" width="5" height="15" isRemoveLineWhenBlank="true" uuid="f3c45a20-0927-4433-a29e-cfd34af021f2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.telCountry}.isEmpty() || !$F{maindn.telArea}.isEmpty()  || !$F{maindn.tel}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="407" y="200" width="148" height="15" isRemoveLineWhenBlank="true" uuid="484b3e76-017d-41a0-a323-7c6d42d8715b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.faxCountry}.isEmpty() || !$F{maindn.faxArea}.isEmpty()  || !$F{maindn.fax}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.genTel($F{maindn.faxCountry}, $F{maindn.faxArea}, $F{maindn.fax})]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="330" y="200" width="66" height="15" isRemoveLineWhenBlank="true" uuid="ae229174-15f9-40b5-837f-8123def2270f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.faxCountry}.isEmpty() || !$F{maindn.faxArea}.isEmpty()  || !$F{maindn.fax}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("fax")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="398" y="200" width="5" height="15" isRemoveLineWhenBlank="true" uuid="cc5df84f-9780-4a5c-ac17-c3e0ddf77b49">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.faxCountry}.isEmpty() || !$F{maindn.faxArea}.isEmpty()  || !$F{maindn.fax}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="43" y="216" width="446" height="15" isRemoveLineWhenBlank="true" uuid="4ba95595-abed-49c4-998c-0e07293ab479">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{maindn.man}+ ($F{maindn.position}.isEmpty()? "":" - ") + $F{maindn.position}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="216" width="37" height="15" isRemoveLineWhenBlank="true" uuid="d53ab8bd-1189-4707-908c-230c357b7ca8">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.man}.isEmpty() || !$F{maindn.position}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_trdg.attention")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="37" y="216" width="5" height="15" isRemoveLineWhenBlank="true" uuid="439048c5-1e89-4791-970b-77e2e24f9968">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{maindn.man}.isEmpty() || !$F{maindn.position}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="43" y="231" width="284" height="15" uuid="1d655a15-0c6f-4332-9565-10eb58a97a57">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{staff.desc}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="231" width="37" height="15" uuid="cdd30b1e-38b5-4677-afe4-88bb4e8f39bb">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{staff.code}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.staff")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="37" y="231" width="5" height="15" uuid="dbca8f75-95c3-4859-99b7-6d772f14dd0e">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[!$F{staff.code}.isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<line>
+				<reportElement positionType="Float" x="0" y="247" width="555" height="1" uuid="c0e6c210-1d41-462c-9f7e-88ea17027da9">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="249" width="30" height="15" uuid="629a921e-87b8-4531-8ef2-8e3eed6509e2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("item")]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="Float" x="0" y="266" width="555" height="1" uuid="f03ac3f1-d7fb-4fd3-bb7e-4a1c39f74060">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="35" y="249" width="120" height="15" uuid="7a76d413-ec78-41fe-9ae4-7924f248862a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.proDesc")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="420" y="249" width="80" height="15" uuid="8ab9ad95-6c2f-4971-ab72-80ae4c60b8ac">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.qty")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="43" y="155" width="284" height="15" uuid="c417c431-2901-430e-9bda-7e797ac9cb66">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cus.ad1}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="43" y="140" width="284" height="15" uuid="c8c2cf3d-f744-48ae-be97-8f808b40cdf7">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cus.desc}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="43" y="170" width="284" height="15" uuid="54657d3c-dbb5-4549-a2f3-e5a2abf23bab">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cus.ad2}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="43" y="185" width="284" height="15" isRemoveLineWhenBlank="true" uuid="3c239adb-8628-46ab-ac9a-982e88f3d6aa">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cus.ad3}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="43" y="200" width="284" height="15" isRemoveLineWhenBlank="true" uuid="8f832086-a4da-44a4-93db-e3ec78ae929d">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cus.ad4}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="90" width="555" height="30" uuid="63f280c8-7f46-4501-bdb2-079261c2c2c5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Dialog" size="14" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macparam}.getTitle()]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center" isUsingCache="true" onErrorType="Blank">
+				<reportElement x="0" y="0" width="112" height="87" uuid="0ed00d62-a5c4-4d4a-a450-2b53bf8dd71c">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo() && !$P{macvar}.getCoLogo().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{macvar}.getImage($P{macvar}.getCoLogo(), 1)]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement positionType="Float" x="465" y="231" width="71" height="15" uuid="d3681118-13be-4a31-848b-9d722b18c44b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.reportPage") + " " + $V{PAGE_NUMBER} + " " + $P{macvar}.getMess("ce01_core.reportOf") + " "]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement positionType="Float" x="536" y="231" width="19" height="15" uuid="972d14c0-78a0-4cd0-9b5e-d97eb254f955">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement x="120" y="0" width="435" height="87" uuid="79dfb780-3147-4584-bbda-f3c78ad6d3d4">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<printWhenExpression><![CDATA[($P{macparam}.isPrtApvQrcode() && !$F{maindn.status}.equals("Y"))]]></printWhenExpression>
+				</reportElement>
+				<textField isBlankWhenNull="true">
+					<reportElement x="0" y="0" width="325" height="26" uuid="99391e0d-643a-4ea5-856d-78b2cc810bf2">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="18" isBold="true" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{company}.getCoDesc()]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="0" y="26" width="325" height="15" isPrintWhenDetailOverflows="true" uuid="81263e0b-53bd-487f-a2a5-f2f2e2eeb2d3">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{company}.getAddress()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="0" y="41" width="325" height="15" uuid="44f7ce83-3966-44f8-9aa8-36ee7f747b5c">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getCoTelAndFax()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="0" y="57" width="325" height="15" uuid="4810b9c3-5e62-4fb0-a2d4-ed1dbd8bb411">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getCoEmailAndWeb()]]></textFieldExpression>
+				</textField>
+				<image hAlign="Center" isUsingCache="true" onErrorType="Blank">
+					<reportElement x="325" y="0" width="110" height="87" uuid="4da5a6e9-4eb7-4de8-b35b-92ff866685f9">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{macvar}.getApvQrCode($P{macparam}.getModuleName(), $F{maindn.id})]]></imageExpression>
+				</image>
+			</frame>
+			<frame>
+				<reportElement x="120" y="0" width="435" height="87" uuid="a71eb94e-aa0a-4645-9fae-9ecdd02216ae">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[!(($P{macparam}.isPrtApvQrcode() && !$F{maindn.status}.equals("Y")))]]></printWhenExpression>
+				</reportElement>
+				<textField isBlankWhenNull="true">
+					<reportElement x="0" y="0" width="435" height="26" uuid="717b68fc-a6c6-4df6-9a0a-16674f2f7560">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="18" isBold="true" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{company}.getCoDesc()]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="0" y="26" width="435" height="15" isPrintWhenDetailOverflows="true" uuid="5143c6f9-d479-4c97-adf9-1ad10494088b">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{company}.getAddress()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="0" y="41" width="435" height="15" uuid="2dddaa94-1fe2-40ec-9ba6-fba9bddfc822">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getCoTelAndFax()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="0" y="57" width="435" height="15" uuid="5a21f234-92c5-4bb1-83e8-e83b6ee2a51f">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{macparam}.isPrtLogo()]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{macvar}.getCoEmailAndWeb()]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="215" width="555" height="1" uuid="d01de624-0c5f-4db9-9ae2-15ce28af8d71">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</frame>
+		</band>
+	</pageHeader>
+	<pageFooter>
+		<band height="15" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ded383bb-452f-4f1e-b119-bb9032c5df7d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.contOnPage") + " " + ($V{PAGE_NUMBER} + 1)]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<lastPageFooter>
+		<band height="15" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField evaluationTime="Report">
+				<reportElement x="0" y="0" width="555" height="15" isRemoveLineWhenBlank="true" uuid="b3f4ab2f-27ce-4f18-9b7e-2694a150402a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<printWhenExpression><![CDATA[$P{macparam}.isPrtEofMark()]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="1_1_2" lineSpacingSize="1.5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{macvar}.getMess("ce01_core.EOE")]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+</jasperReport>

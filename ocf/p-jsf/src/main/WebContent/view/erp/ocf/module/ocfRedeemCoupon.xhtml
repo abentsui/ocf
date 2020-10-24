@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:caw="http://www.cloud-at-work.com">
+<caw:view contentType="text/html">
+	<h:head>
+		<f:facet name="first">
+			<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		</f:facet>
+		<title>Redemption Coupon</title>
+		<h:outputStylesheet name="style.min.css" library="font/cawIcon"></h:outputStylesheet>
+	</h:head>
+	<h:body>
+ 		<h:form id="ocfRedeemCouponForm">
+ 			<caw:viewListener class="com.multiable.erp.core.bean.listener.ERPViewListener"/>
+			<ui:decorate template="/view/template/viewTemplate.xhtml">
+				<ui:define name="recordInfo">
+					<ui:include src="/view/erp/core/share/macRecordInfo.xhtml" >
+					</ui:include> 	
+				</ui:define>
+				<caw:tabView id="mainView" style="margin: 20px auto 20px">	
+					<caw:tab id="basicInfoTab" mess-title="#{module.mess}">
+						<caw:fluidPanel id="fpRedeemCoupon" column="3">	
+							<caw:inputText tableName="ocfredeemcoupon" columnName="code"/>
+							<caw:inputCheck id="expired" tableName="ocfredeemcoupon" columnName="expired" mess-label="ce01_core.expired"/>
+							<caw:inputText tableName="ocfredeemcoupon" columnName="desc" style="width:100%" style-input="width:75%">
+								<caw:constraints colSpan="2"></caw:constraints>
+							</caw:inputText>									
+						</caw:fluidPanel>
+						
+						<caw:fluidPanel id="fpRedeemCouponT" column="1">
+							<caw:editTable id="ocfRedeemCouponT" tableName="ocfredeemcoupont" primarykey="effDate" 
+								showYScrollBar="true" class="markScroll">
+								<caw:constraints rowHold="true"/>
+								<caw:tableColumn columnName="effDate" edittype="cawDate"/>
+								<caw:tableColumn columnName="redeemPt" edittype="cawNum"/>
+							</caw:editTable>
+						</caw:fluidPanel>
+					</caw:tab>											
+					<ui:include src="/view/share/recordCtInfo.xhtml" />
+				</caw:tabView>				
+	 		</ui:decorate> 
+		</h:form>
+	</h:body>
+</caw:view>
+</html>

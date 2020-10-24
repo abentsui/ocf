@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ss xmlns="http://www.multiable.com/stSearch">
+	<stSearch name="ocfRem" mess="Message Content" srcSt="ocfRem" maxLevel="1"
+		desc="#ocfRem#.bDesc;' (';#ocfRem#.code;')'" slaveEjb="ce01_ocf/OcfRemarkSlave"
+		defCond="#ocfRem#.id != 0" sort="#ocfRem#.code" accessModule="ocfRem" >
+		<format mess="core.defFormat">
+			<col col="code" mess="core.code"/>
+			<col col="bDesc" mess="ce01_core.bDesc"/>
+		</format>
+	</stSearch>
+	
+	<stSearch name="ocfRedeemCoupon" mess="Redemption Coupon" srcSt="ocfRedeemCoupon" maxLevel="3"
+		desc="#ocfRedeemCoupon#.desc;' (';#ocfRedeemCoupon#.code;')'"
+		defCond="#ocfRedeemCoupon#.id != 0" sort="#ocfRedeemCoupon#.code" accessModule="ocfRedeemCoupon">
+		<format mess="core.defFormat">
+			<col col="code" mess="core.code"/>
+			<col col="desc" mess="core.desc"/>
+		</format>
+	</stSearch>
+</ss>

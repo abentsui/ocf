@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<si xmlns="http://www.multiable.com/stInfo">
+	<stInfo name ="ocfRem" mess="Message Content" table ="ocfrem"/>
+	<stInfo name ="ocfRedeemCoupon" mess="Redemption Coupon" table ="ocfredeemcoupon"/>
+</si>

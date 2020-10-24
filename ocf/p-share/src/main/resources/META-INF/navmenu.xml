@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<nm xmlns="http://www.multiable.com/navmenu" app="ce01_ocf">
+	<folder code="m18erp" messCode="ce01_core.m18erp">
+		<folder code="erpSetting" messCode="ce01_core.erpSetting">
+			<menu code="ocfDnUpload" messCode="Delivery Note Upload" src="view/erp/ocf/module/ocfDnUpload" module="" mType="OTHER">
+				<icon name="cicon-tool" library="font/cawIcon"/>
+			</menu>
+		</folder>
+	</folder>
+	
+	<folder code="masterData">
+		<menu code="ocfRedeemCoupon" messCode="Redemption Coupon" src="view/erp/ocf/module/ocfRedeemCoupon" module="ocfRedeemCoupon" mType="FM" order="8000">				
+			<inherit name ="module_fc" />
+		</menu>
+		<folder code="remarkData">
+			<menu code="ocfRem" messCode="Message Content" src="view/erp/ocf/module/ocfRemark" module="ocfRem" mType="FM" order="8000">				
+				<inherit name ="module_fc" />
+			</menu>
+		</folder>
+	</folder>
+</nm>

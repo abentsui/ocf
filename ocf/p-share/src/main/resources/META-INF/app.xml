@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<app xmlns="http://www.multiable.com/app">
+	<name>ce01_ocf</name>
+	<version>1.0</version>
+	<description>OCF</description>
+	<dependences>
+		<dependence id="caw" versions="1.0" />
+		<dependence id="ce01_root" versions="1.0" />
+		<dependence id="ce01_core" versions="1.0" />
+		<dependence id="ce01_trdg" versions="1.0" />
+	</dependences>	
+	<ear>caw_ear</ear>
+	<ejb>ce01_ocf_ejb</ejb>
+	<extension>
+		<view app="ce01_trdg" code="dn" type="frame">
+			<controller/>
+			<page>/view/erp/ocf/extension/ocfDeliveryNoteExtension.xhtml</page>
+			<listener>com.multiable.erp.ocf.bean.view.listener.OcfDeliveryNoteListener</listener>
+		</view>
+		
+		<view app="ce01_core" code="pro" type="frame">
+			<controller/>
+			<page>/view/erp/ocf/extension/ocfProExtension.xhtml</page>
+			<listener></listener>
+		</view>
+		
+		<view app="ce01_core" code="account" type="frame">
+			<controller/>
+			<page>/view/erp/ocf/extension/OcfAcExtension.xhtml</page>
+			<listener></listener>
+		</view>
+	</extension>
+</app>

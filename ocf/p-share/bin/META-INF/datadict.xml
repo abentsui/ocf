@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<dd xmlns="http://www.multiable.com/datadict">
+	<table name="maindn" extend="true">
+		<column name="lastUploadTime" type="varchar" mess="Last Upload Date/ Time" length="100" defValue="" defPattern="char100" />
+		<column name="sendViaEmail" type="bit" mess="Send via Email" defValue="0" defPattern="check"/>
+	</table>
+	
+	<table name="pro" extend="true">
+		<column name="cardSize" type="varchar" mess="Card Size" length="20" defPattern="ocfCardSize" defValue=""/>
+	</table>
+	
+	<table name="ocfrem" mess="Message Content" pk="id" >
+		<inherit name="module_fm" />
+		<column name="code" type="varchar" mess="core.code" length="20" defPattern="fmCode" required="true" batchUpdate="false"/>
+		<column name="desc" type="varchar" mess="Message Content Description" length="-1" defPattern="html" batchUpdate="true"/>
+		<column name="bDesc" type="varchar" mess="ce01_core.bDesc" length="200" defPattern="char100" defValue="" i18nField="true" batchUpdate="true"/>
+		
+		<index name="module_code" columns="code" />
+	</table>
+	
+	<table name="remdn" extend="true">
+		<column name="ocfRecipient" type="varchar" mess="Recipient" length="200" defPattern="char100" defValue=""/>
+		<column name="ocfSender" type="varchar" mess="Sender" length="-1" defPattern="html"/>
+		<column name="ocfMessageContent" type="varchar" mess="Message Content" length="-1" defPattern="html"/>
+		<column name="cardSize" type="varchar" mess="Card Size" length="20" defPattern="ocfCardSize" defValue=""/>
+	</table>
+	
+	<table name="ocfredeemcoupon" mess="Redemption Coupon" pk="id">
+		<inherit name="module_be" />
+		<column name="code" type="varchar" mess="core.code" length="40" defPattern="char20" required="true" batchUpdate="false"/>
+		<column name="desc" type="varchar" mess="core.description" length="200" defPattern="char100" i18nField="true" batchUpdate="true"/>
+	</table>
+	
+	<table name="ocfredeemcoupont" mess="Redemption Coupon (Footer)" pk="id">
+		<inherit name="ce01_tx_footer" />
+		<column name="effDate" type="datetime" mess="effDate" defValue="19000101" defPattern="date" required="true"/>
+		<column name="redeemPt" type="decimal" mess="Redemption Point Needed" length="12" decimal="4" defPattern="number6_2" />
+	</table>
+	
+	<table name="chacc" extend="true">
+		<column name="redeemCreditAcc" type="bit" mess="Redemption Credit Account" defValue="0" defPattern="check"/>
+	</table>
+
+</dd>
